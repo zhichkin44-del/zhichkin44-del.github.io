@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Александр Жичкин — ИИ-агенты</title>
+<meta name="description" content="Системы, где команда ИИ-агентов сама ведёт проекты: задачи, код, ревью, бюджет, отчёт.">
+<style>
+  :root { --bg:#141517; --card:#1c1d20; --line:#2c2d31; --text:#e8e8ea; --dim:#9a9ca1; --yellow:#f5c400; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  .wrap { max-width:1040px; margin:0 auto; padding:0 16px; }
+  header { border-bottom:2px solid var(--yellow); padding:40px 0 32px; }
+  h1 { font-size:clamp(28px,5vw,44px); margin:0 0 8px; letter-spacing:-.5px; }
+  .role { color:var(--yellow); font-weight:600; margin:0 0 16px; }
+  .lead { max-width:720px; color:var(--dim); margin:0 0 24px; }
+  .btn { display:inline-block; padding:10px 18px; border:1px solid var(--yellow); border-radius:10px; color:var(--text); text-decoration:none; font-weight:600; margin:0 8px 8px 0; }
+  .btn.main { background:var(--yellow); color:#141517; }
+  .nums { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin:32px 0; }
+  .num { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:16px; }
+  .num b { display:block; font-size:28px; color:var(--yellow); }
+  .num span { color:var(--dim); font-size:14px; }
+  h2 { font-size:22px; margin:48px 0 16px; padding-left:14px; border-left:3px solid var(--yellow); }
+  .proj { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:24px; margin-bottom:16px; }
+  .proj h3 { margin:0 0 4px; font-size:20px; }
+  .stack { color:var(--dim); font-size:14px; margin:0 0 12px; }
+  .proj ul { margin:0; padding-left:20px; }
+  .proj li { margin:4px 0; }
+  .shot { width:100%; border-radius:12px; border:1px solid var(--line); margin-top:16px; display:block; }
+  .flow { display:flex; flex-wrap:wrap; gap:8px; margin:12px 0 0; }
+  .flow span { background:#26272b; border:1px solid var(--line); border-radius:8px; padding:4px 10px; font-size:14px; }
+  .flow span.arrow { background:none; border:none; color:var(--yellow); padding:4px 0; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:16px; }
+  footer { margin:56px 0 0; padding:32px 0 48px; border-top:1px solid var(--line); color:var(--dim); }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Александр Жичкин</h1>
+    <p class="role">AI-инженер · внедрение ИИ и ИИ-агентов</p>
+    <p class="lead">Строю системы, где команда ИИ-агентов сама ведёт проекты: получает задачи, пишет код, проверяет друг друга, укладывается в бюджет и отчитывается. Открыт к удалённой работе и проектам.</p>
+    <a class="btn main" href="https://t.me/TELEGRAM_NICK">Написать в Telegram</a>
+    <a class="btn" href="#projects">Проекты</a>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="nums">
+    <div class="num"><b>12</b><span>ИИ-агентов с ролями</span></div>
+    <div class="num"><b>252</b><span>задачи за 11 дней</span></div>
+    <div class="num"><b>164</b><span>pull request’а</span></div>
+    <div class="num"><b>~1600</b><span>автотестов в проектах</span></div>
+    <div class="num"><b>1,3 %</b><span>расхождение учёта с реальным счётом</span></div>
+  </div>
+
+  <h2 id="projects">Studio Control — виртуальный офис ИИ-агентов</h2>
+  <div class="proj">
+    <p class="stack">Node.js · SQLite · MCP · Claude, Gemini, DeepSeek</p>
+    <ul>
+      <li>Команда агентов: разработчики, ревьюер, аналитик, дизайнер, архитектор. Каждый — своя модель, навыки и проекты.</li>
+      <li>Работа идёт на нескольких компьютерах; пульт сам распределяет задачи.</li>
+      <li>Потолки расходов на задачу, агента и день; учёт каждого вызова модели до цента.</li>
+      <li>Модели по ступеням: дешёвые — на рутину, сильные — на ревью и архитектуру.</li>
+    </ul>
+    <div class="flow"><span>цель</span><span class="arrow">→</span><span>этапы</span><span class="arrow">→</span><span>задача агенту</span><span class="arrow">→</span><span>PR</span><span class="arrow">→</span><span>ревью другим агентом</span><span class="arrow">→</span><span>тесты</span><span class="arrow">→</span><span>слияние</span></div>
+    <img class="shot" src="img/crew.jpg" alt="Экипаж: агенты, их модели и задачи">
+    <img class="shot" src="img/economy.jpg" alt="Экономика: расходы по дням, проектам и агентам">
+  </div>
+
+  <h2>Автономный новостной канал в Telegram</h2>
+  <div class="proj">
+    <p class="stack">Node.js · LLM · headless Chrome · Telegram Bot API</p>
+    <ul>
+      <li>Медиа без редакции: ~140 постов за 5 суток без ручной правки.</li>
+      <li>Радар 98 источников: RSS, Google Trends, Reddit, Wikipedia, Bluesky.</li>
+      <li>Отбор с квотами по темам и склейкой дублей, «ворота» качества на каждый пост.</li>
+      <li>Карточки-инфографика, дайджесты утром и вечером, срочные новости; сторож поднимает тревогу, если конвейер замолчал.</li>
+      <li>~$0,005 за черновик поста.</li>
+    </ul>
+    <div class="flow"><span>источники</span><span class="arrow">→</span><span>отбор</span><span class="arrow">→</span><span>ИИ-редактор</span><span class="arrow">→</span><span>проверка</span><span class="arrow">→</span><span>карточка</span><span class="arrow">→</span><span>публикация</span></div>
+  </div>
+
+  <h2>Другие проекты</h2>
+  <div class="grid">
+    <div class="proj"><h3>Zokul</h3><p class="stack">Node.js · Socket.IO · PostgreSQL · React PWA · MCP</p>Мессенджер для команды и её ИИ-агентов: агенты отчитываются и просят одобрения кнопками рядом с людьми. Релиз 1.0, 157 тестов.</div>
+    <div class="proj"><h3>AgentPrism</h3><p class="stack">TypeScript · CLI + SDK</p>Показывает, куда уходят деньги на ИИ-агентов, и находит траты впустую.</div>
+    <div class="proj"><h3>Carina</h3><p class="stack">Rust · Tauri</p>Аудиоплеер-виджет для рабочего стола Windows.</div>
+    <div class="proj"><h3>Vault</h3><p class="stack">Rust · Tauri · TypeScript</p>Офлайн-менеджер паролей: без облака и телеметрии.</div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">Александр Жичкин · удалённо · <a href="https://t.me/TELEGRAM_NICK" style="color:var(--yellow)">Telegram</a></div>
+</footer>
+</body>
+</html>
