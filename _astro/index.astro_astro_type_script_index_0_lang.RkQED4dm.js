@@ -1,0 +1,1 @@
+var e=new URLSearchParams(location.search).get(`task`)?.trim(),t=document.querySelector(`[data-contact-task]`),n=document.querySelector(`[data-contact-task-text]`);e&&t&&n&&(n.textContent=e.slice(0,1e3),t.hidden=!1);
