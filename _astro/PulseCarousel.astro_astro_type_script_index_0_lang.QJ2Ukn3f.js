@@ -1,1 +1,0 @@
-for(let e of document.querySelectorAll(`[data-pulse-nav]`)){let t=e.closest(`.pulse`)?.querySelector(`[data-pulse-track]`);if(t){e.hidden=!1;for(let n of e.querySelectorAll(`[data-pulse-step]`))n.addEventListener(`click`,()=>{let e=Number(n.dataset.pulseStep);t.scrollBy({left:e*t.clientWidth*.9,behavior:`smooth`})})}}
