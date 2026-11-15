@@ -45,6 +45,6 @@
     "A booking form connected to your Telegram, email or CRM (part of a real order).",
     "A phone check."
   ],
-  "not_included": "",
+  "not_included": "Hosting, domain and third-party service fees.",
   "price_en": "Starting at $80"
 }

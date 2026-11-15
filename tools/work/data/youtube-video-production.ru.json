@@ -36,14 +36,6 @@
       "w": 1280,
       "h": 720,
       "alt": "Кадры из готового видео."
-    },
-    {
-      "tall": false,
-      "caption": "Кадры из вертикальных Shorts.",
-      "src": "/work/youtube-video-production/04.webp",
-      "w": 1280,
-      "h": 720,
-      "alt": "Кадры из вертикальных Shorts."
     }
   ],
   "steps": [

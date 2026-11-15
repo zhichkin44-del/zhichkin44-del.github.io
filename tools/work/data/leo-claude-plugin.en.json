@@ -27,13 +27,7 @@
     "New rules from the owner's messages are never written automatically: the plugin only prompts the lead, and the decision stays with the owner."
   ],
   "shots_title": "Test run",
-  "shots": [
-    {
-      "tall": false,
-      "caption": "node --test summary of the plugin (v0.1.0, zero dependencies). Individual test names are in Russian.",
-      "pre": "$ node --test\n...\nℹ tests 57\nℹ suites 0\nℹ pass 57\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0"
-    }
-  ],
+  "shots": [],
   "steps": [
     "A SessionStart hook restores decisions and promises after compaction.",
     "A Stop hook sends the final answer to a tool-free, single-turn Haiku skeptic with a timeout.",

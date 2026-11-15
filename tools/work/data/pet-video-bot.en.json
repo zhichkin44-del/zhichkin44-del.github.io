@@ -28,13 +28,7 @@
     "Protection against an old bot instance: the bot keeps running even if an earlier version of it is still live somewhere."
   ],
   "shots_title": "Test run",
-  "shots": [
-    {
-      "tall": false,
-      "caption": "Summary of the real test run: 84 tests pass, no external services needed. Individual test names are in Russian.",
-      "pre": "$ npm test\n...\nℹ tests 84\nℹ suites 0\nℹ pass 84\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0"
-    }
-  ],
+  "shots": [],
   "steps": [
     "The bot gives the day's task and receives the video.",
     "ffmpeg assembles a vertical 18-second clip at about -14 LUFS.",

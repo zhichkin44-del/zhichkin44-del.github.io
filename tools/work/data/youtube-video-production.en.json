@@ -36,14 +36,6 @@
       "w": 1280,
       "h": 720,
       "alt": "Frames from the finished video."
-    },
-    {
-      "tall": false,
-      "caption": "Frames from the vertical Shorts.",
-      "src": "/work/youtube-video-production/04.webp",
-      "w": 1280,
-      "h": 720,
-      "alt": "Frames from the vertical Shorts."
     }
   ],
   "steps": [
