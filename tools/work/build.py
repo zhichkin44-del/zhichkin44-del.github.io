@@ -33,7 +33,16 @@ L = {
         'stack': 'Стек', 'offer': 'Что вы получите', 'not': 'Не входит',
         'next': 'Следующая работа', 'crumbs': 'Хлебные крошки', 'list': 'Список работ',
         'open': 'Открыть крупно', 'close': 'Закрыть', 'scheme': 'Схема',
-        'skip_footer_work': 'Работы на заказ',
+        'skip_footer_work': 'Работы на заказ', 'price_line': 'Стоимость',
+        'method_h': 'Как я работаю',
+        'method_p': 'Я не пишу код руками. Я ставлю задачу, задаю правила и принимаю результат. '
+                    'Код пишет ИИ, а проверяют его агенты-проверяющие, которых я настраиваю под каждую работу.',
+        'method': ['Задача и правила — на мне: что должно получиться, как понять, что готово, и чего делать нельзя.',
+                   'Основная модель пишет код. Исправляет её только отдельный проверяющий со своей ролью: '
+                   'тестировщик, редактор или «заказчик», который придирается как вы.',
+                   'Работа не уходит к вам, пока проверяющий не сказал «готово»: тесты, обход всех экранов, сверка с задачей.',
+                   'Внимание — на задаче и качестве, а не на синтаксисе. Поэтому быстрее и с меньшим числом переделок.'],
+        'method_proof': 'Так сделаны все работы ниже: 542 изменения (PR) с 23 октября по 15 ноября 2026 года в 15 репозиториях.',
     },
     'en': {
         'shell': 'en/projects/carina/index.html', 'base': '/en/work/', 'other': '/work/',
@@ -49,7 +58,16 @@ L = {
         'stack': 'Stack', 'offer': 'What you get', 'not': 'Not included',
         'next': 'Next project', 'crumbs': 'Breadcrumbs', 'list': 'Project list',
         'open': 'Open larger', 'close': 'Close', 'scheme': 'Diagram',
-        'skip_footer_work': 'Freelance work',
+        'skip_footer_work': 'Freelance work', 'price_line': 'Cost',
+        'method_h': 'How I work',
+        'method_p': 'I don\'t write code by hand. I set the task, define the rules and sign off on the result. '
+                    'AI writes the code, and checker agents that I configure for each project review it.',
+        'method': ['The task and the rules are mine: what the result must be, how we know it is done, and what is off limits.',
+                   'The main model writes the code. Only a separate checker with its own role can correct it: '
+                   'a tester, an editor, or a "client" who is as picky as you are.',
+                   'Nothing reaches you until the checker says "done": tests, a pass through every screen, a check against the task.',
+                   'My attention goes to the task and the quality, not the syntax. That makes it faster, with fewer rounds of fixes.'],
+        'method_proof': 'Every project below was built this way: 542 pull requests from 23 October to 15 November 2026 across 15 repositories.',
     },
 }
 
@@ -155,6 +173,10 @@ def index_page(lang, works):
     body = (
         f'<section class="wrap page-head" data-hole-anchor aria-labelledby="work-title"><h1 id="work-title">{e(c["index_title"])}</h1>'
         f'<p class="lead">{e(c["index_lead"])}</p><p class="wk-actions"><a class="btn" href="{TG}" rel="noopener">{e(c["cta_btn"])}</a></p></section>'
+        f'<section class="wrap block" aria-labelledby="method-title"><div class="cta2 cta2--one"><div class="glass wk-method">'
+        f'<h2 id="method-title">{e(c["method_h"])}</h2><p class="wk-method__lead">{e(c["method_p"])}</p>'
+        f'<ul class="wk-points">{"".join(f"<li>{e(x)}</li>" for x in c["method"])}</ul>'
+        f'<p class="wk-method__proof">{e(c["method_proof"])}</p></div></div></section>'
         f'<section class="wrap block wk-list" aria-label="{e(c["list"])}">'
         f'<div class="chips" role="group" aria-label="{e(c["filter"])}">{"".join(chips)}</div>'
         f'<p class="wk-note">{e(c["filter_note"])}</p>'
@@ -209,7 +231,7 @@ def detail_page(lang, d, nxt):
                  + '</section>')
     p.append(f'<section class="wrap block" aria-labelledby="offer-title"><h2 id="offer-title">{c["offer"]}</h2><div class="cta2">'
              f'<div class="glass"><ul class="wk-points">{"".join(f"<li>{e(x)}</li>" for x in d["offer"])}</ul>'
-             f'<p class="wk-price-line">{c["price"]}: <b>{e(price(d, lang))}</b></p></div>'
+             f'<p class="wk-price-line">{c["price_line"]}: <b>{e(price(d, lang))}</b></p></div>'
              f'<div class="glass"><h3>{c["not"]}</h3><p>{e(d["not_included"])}</p>'
              f'<a class="btn" href="{TG}" rel="noopener">{e(c["cta_btn"])}</a></div></div></section>')
     p.append(f'<nav class="wrap next-project" aria-label="{c["next"]}"><a href="{base}{nxt["slug"]}/"><small>{c["next"]}</small>'
