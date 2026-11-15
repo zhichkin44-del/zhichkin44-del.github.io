@@ -9,7 +9,7 @@
     "alt": "Signalka: laptop guard, alarm on your phone"
   },
   "title": "Signalka: laptop guard with a sound detector",
-  "lead": "Arm your laptop with a PIN and walk away. If someone unplugs the charger or inserts a USB stick, you have 10 seconds for the PIN, then a siren and a message to your phone. Runs on the laptop itself, no cloud, no account. The next module, room security by sound, already detects loud sounds and attempts to drown out the microphone with noise (13 checks on recorded sounds pass).",
+  "lead": "Arm your laptop with a PIN and walk away. If someone unplugs the charger or inserts a USB stick, you have 10 seconds for the PIN, then a siren and a message to your phone. Runs on the laptop itself, no account; the only thing sent out is the phone message via ntfy, if you turn it on. The next module, room security by sound, already detects loud sounds and attempts to drown out the microphone with noise (13 checks on recorded sounds pass).",
   "category": "Apps",
   "hero": {
     "tall": false,

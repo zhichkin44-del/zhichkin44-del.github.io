@@ -14,11 +14,11 @@
   "category": "Bots / Automation",
   "hero": {
     "tall": false,
-    "caption": "The daily digest in Telegram (Russian).",
+    "caption": "Pick of the day: five vacancies with scores, 55-point threshold, the dropped ones in a separate line (vacancy and company names in Russian).",
     "src": "/work/job-feed-bot/03.webp",
     "w": 1280,
     "h": 800,
-    "alt": "The daily digest in Telegram (Russian)."
+    "alt": "Pick of the day: five vacancies with scores, 55-point threshold, the dropped ones in a separate line (vacancy and company names in Russian)."
   },
   "problem": "Suitable vacancies are scattered across feeds, with many duplicates and wrong roles. The need was one short daily list.",
   "built": [
@@ -26,17 +26,17 @@
     "Duplicate merging, and filtering by rules such as wrong role or not remote.",
     "The bot scores every vacancy out of 100 and sends only those scoring 55 or more: at most 10 a day, no repeats.",
     "Card buttons (Open vacancy, Copy text, Sent, Skip, Not mine) remember your answer; Not mine is taken into account later.",
-    "A letter draft from your approved wording; the model's reply drafts are checked against your profile facts, so it does not invent experience, and figures are checked against your facts."
+    "A letter draft from your approved wording; the model's reply drafts are checked against your profile facts, so it does not invent experience or figures."
   ],
   "shots_title": "Screens",
   "shots": [
     {
       "tall": true,
-      "caption": "The digest on a phone (Russian).",
+      "caption": "A vacancy card on a phone: tasks, requirements, the matching résumé version, and buttons to open the vacancy, copy the text, mark it sent, skip it or reject it (in Russian).",
       "src": "/work/job-feed-bot/04.webp",
       "w": 750,
-      "h": 1624,
-      "alt": "The digest on a phone (Russian)."
+      "h": 860,
+      "alt": "A vacancy card on a phone: tasks, requirements, the matching résumé version, and buttons to open the vacancy, copy the text, mark it sent, skip it or reject it (in Russian)."
     }
   ],
   "steps": [

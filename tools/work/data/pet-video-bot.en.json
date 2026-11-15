@@ -23,7 +23,7 @@
   "problem": "A person with no technical background needs to shoot a video about a pet regularly and publish it on several platforms. The bot does the guiding and the editing; the person publishes.",
   "built": [
     "A task script: first-week and second-week tasks, with videos and answers received in the chat.",
-    "An ffmpeg edit: vertical format, an 18-second clip at about -14 LUFS.",
+    "An ffmpeg edit: vertical format, an 18-second clip at about -14 LUFS (the loudness level video platforms expect).",
     "Post texts for each platform, and a quality check of the clip before it is sent.",
     "A safeguard so a second copy of the bot running by mistake does not break it."
   ],
@@ -31,7 +31,7 @@
   "shots": [],
   "steps": [
     "The bot gives the day's task and receives the video.",
-    "ffmpeg assembles a vertical 18-second clip at about -14 LUFS.",
+    "ffmpeg assembles a vertical 18-second clip at about -14 LUFS (the loudness level video platforms expect).",
     "A quality check catches problems before the clip is sent.",
     "The bot writes a post text per platform; you publish it yourself."
   ],
