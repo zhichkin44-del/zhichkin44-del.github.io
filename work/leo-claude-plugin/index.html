@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A Claude Code plugin that remembers decisions and checks the final answer | Freelance developer portfolio</title>
+<meta name="description" content="Restores decisions and promises after context compaction, and has a second model act as a skeptic before the final report.">
+<link rel="canonical" href="https://zhichkin44-del.github.io/work/leo-claude-plugin/">
+<script src="/theme-init.js"></script>
+<link rel="preload" href="/_astro/unbounded-latin-wght-normal.D5afBTBx.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/work/work.css">
+</head>
+<body>
+<header class="top"><div class="wrap bar">
+<a class="brand" href="/en/">Home</a>
+<nav aria-label="Main"><a href="/work/">All work</a><a href="/en/projects/">Case studies</a><a href="/work/#contact" class="hire">Contact</a></nav>
+</div></header>
+<main>
+<section class="scr hero2"><div class="wrap">
+<p class="crumb"><a href="/work/">All work</a> / Automation</p>
+<h1>A Claude Code plugin that remembers decisions and checks the final answer</h1>
+<p class="lead">Restores decisions and promises after context compaction, and has a second model act as a skeptic before the final report.</p>
+</div></section>
+<section class="scr"><div class="wrap two">
+<div><h2>Problem</h2><p>After context compaction, a long Claude Code session loses the thread: it forgets the owner&#x27;s decisions and what was promised. It needed a way to bring that context back and to double-check the final report.</p></div>
+<div><h2>What I built</h2><ul class="ticks"><li>A SessionStart hook (on compact and resume) puts a summary back into context: working windows, decisions waiting for the owner, the day&#x27;s rules.</li><li>A Stop hook runs Claude Haiku as a skeptic on final answers. It looks for unverified claims and missed promises; a serious finding blocks the answer with a reason.</li><li>The Haiku call is isolated: no tools, a single turn, a timeout.</li><li>New rules from the owner&#x27;s messages are never written automatically: the plugin only prompts the lead, and the decision stays with the owner. No trigger words are hard-coded.</li><li>Changes from the skeptic&#x27;s own review are included.</li></ul></div>
+</div></section>
+<section class="scr shots"><div class="wrap"><h2 class="narrow-h">Test run</h2>
+<figure class="shot"><pre style="background:var(--card);border:1px solid var(--edge);border-radius:8px;padding:14px;overflow-x:auto;max-width:100%;font:.9rem/1.5 ui-monospace,Consolas,monospace;white-space:pre-wrap;word-break:break-word">$ node --test
+...
+ℹ tests 57
+ℹ suites 0
+ℹ pass 57
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0</pre><figcaption><code>node --test</code> summary of the plugin (v0.1.0, zero dependencies). Individual test names are in Russian.</figcaption></figure>
+</div></section>
+<section class="scr"><div class="wrap"><h2>How it works</h2><ol class="steps row"><li><span>1</span><p>A SessionStart hook restores decisions and promises after compaction.</p></li><li><span>2</span><p>A Stop hook sends the final answer to a tool-free, single-turn Haiku skeptic with a timeout.</p></li><li><span>3</span><p>A serious finding blocks the answer and shows the reason.</p></li><li><span>4</span><p>Everything runs on Node.js with no external dependencies.</p></li></ol><ul class="tags big stackrow"><li>Node.js (ESM)</li><li>Claude Code hooks</li><li>Claude Haiku</li><li>node:test</li></ul><p class="status"><b>Status:</b> Version 0.1.0, 57 tests on <code>node --test</code> pass (run on 15 Nov 2026).</p></div></section>
+<section class="scr cta"><div class="wrap narrow"><h2>What you get</h2><ul class="ticks"><li>A Claude Code plugin with the two hooks, set up for your workflow.</li><li>Tests for hook behaviour, safe failures and timeouts.</li></ul><p class="muted">Not included: Support for other assistants; a promised quality gain in percent.</p><p class="bigprice">Price: <strong>on request</strong>, after a short brief</p><a class="btn" href="https://t.me/god66x" rel="noopener">Message me on Telegram</a></div></section>
+</main>
+<footer class="foot"><div class="wrap">Freelance developer: bots, automation, websites, video. <a href="/work/#contact">Contact</a></div></footer>
+</body></html>
