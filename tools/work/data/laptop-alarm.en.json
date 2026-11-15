@@ -22,7 +22,7 @@
   "problem": "A laptop is left unattended in a coworking space, an office or a hotel. You need to know at once if someone touches it, without cameras, a subscription or a cloud service.",
   "built": [
     "Laptop guard: after arming you have 30 seconds to walk away; if the power cable is unplugged or a USB device is inserted, you have 10 seconds for the PIN, then a loud siren.",
-    "The PIN is stored only as a scrypt hash; 5 wrong tries lock PIN entry for 30 seconds, and the lock survives a restart.",
+    "The PIN itself is never stored, only a one-way fingerprint of it (scrypt) that cannot be turned back into the PIN; 5 wrong tries lock PIN entry for 30 seconds, and the lock survives a restart.",
     "An icon in the Windows notification area with a menu and a PIN box, an event log, and a phone message through ntfy, a free phone notification app (if you turn it on).",
     "26 automated tests of the guard pass with no external services.",
     "Sound detector (the next module): notices a sound louder than the background, a dead or covered microphone, an attempt to jam it with noise, and ignores its own siren. 13 more tests on recorded sounds pass.",

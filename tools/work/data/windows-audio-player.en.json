@@ -26,7 +26,7 @@
     "A library from your folders: a folder is a playlist, subfolders are albums, covers come from a cover.jpg file or the tags, and search covers all music.",
     "Playlists, Favorites, a queue (drag to reorder, play next), shuffle, repeat.",
     "Its own audio engine: mp3, flac (up to 96 kHz / 24 bit), m4a/aac, ogg, wav, aiff.",
-    "Windows integration: media keys, the system volume overlay, a tray icon, autostart, and Open with Carina plays the whole folder from the chosen track."
+    "Windows integration: media keys, the system volume overlay, a tray icon, autostart, and Open with Carina (the player's name) plays the whole folder from the chosen track."
   ],
   "shots_title": "Screens",
   "shots": [
@@ -48,11 +48,11 @@
     },
     {
       "tall": false,
-      "caption": "Playlists: Favourites, Night mix, Gym and a new-playlist button (interface in Russian).",
+      "caption": "Playlists: Favorites, Night mix, Gym and a new-playlist button (interface in Russian).",
       "src": "/work/windows-audio-player/05.webp",
       "w": 1040,
       "h": 1240,
-      "alt": "Playlists: Favourites, Night mix, Gym and a new-playlist button (interface in Russian)."
+      "alt": "Playlists: Favorites, Night mix, Gym and a new-playlist button (interface in Russian)."
     },
     {
       "tall": false,

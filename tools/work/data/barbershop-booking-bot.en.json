@@ -59,7 +59,7 @@
     "A booking bot for your salon, studio or solo master: services, masters, working hours.",
     "Reminders, cancellation and an owner notification.",
     "A bookings table for the owner.",
-    "Setup on your Telegram bot token."
+    "Connection to your Telegram bot: you create the bot's key yourself in a couple of minutes, and I guide you step by step."
   ],
   "not_included": "CRM integration — quoted separately once I see which CRM you use.",
   "price_en": "Starting at $80"
