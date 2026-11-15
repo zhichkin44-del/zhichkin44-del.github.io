@@ -6,7 +6,7 @@
   ],
   "order": 2,
   "thumb": {
-    "src": "/work/job-feed-bot/01.webp",
+    "src": "/work/job-feed-bot/03.webp",
     "alt": "A daily scored pick of the best job posts"
   },
   "title": "A daily scored pick of the best job posts",
@@ -14,11 +14,11 @@
   "category": "Bots / Automation",
   "hero": {
     "tall": false,
-    "caption": "Project cover.",
-    "src": "/work/job-feed-bot/01.webp",
-    "w": 1320,
-    "h": 880,
-    "alt": "Project cover."
+    "caption": "The daily digest in Telegram (Russian).",
+    "src": "/work/job-feed-bot/03.webp",
+    "w": 1280,
+    "h": 800,
+    "alt": "The daily digest in Telegram (Russian)."
   },
   "problem": "Suitable vacancies are scattered across feeds, with many duplicates and wrong roles. The need was one short daily list.",
   "built": [
@@ -31,20 +31,12 @@
   "shots_title": "Screens",
   "shots": [
     {
-      "tall": false,
-      "caption": "The daily digest Russian text.",
-      "src": "/work/job-feed-bot/03.webp",
-      "w": 1280,
-      "h": 800,
-      "alt": "The daily digest Russian text."
-    },
-    {
       "tall": true,
-      "caption": "On a phone Russian text.",
+      "caption": "The digest on a phone (Russian).",
       "src": "/work/job-feed-bot/04.webp",
       "w": 750,
       "h": 1624,
-      "alt": "On a phone Russian text."
+      "alt": "The digest on a phone (Russian)."
     }
   ],
   "steps": [

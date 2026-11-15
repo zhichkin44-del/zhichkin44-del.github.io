@@ -21,8 +21,8 @@
   },
   "problem": "An author selling an English course for IT people needs a landing page: a clear offer, who it is for (front end, back end, QA, devops), a six-week program, what students get, two price columns, a FAQ and an application form.",
   "built": [
-    "A first screen with a clear offer and a live call-simulation widget.",
-    "A who-it's-for block with examples for each role.",
+    "A first screen with a clear offer and a live practice-call widget.",
+    "A who-it's-for block with real situations for each role.",
     "A six-week program laid out as a timeline.",
     "A what-you-get block showing sample materials of the course.",
     "Two price columns, an about-the-author block and a FAQ."
@@ -40,7 +40,7 @@
   ],
   "steps": [
     "The first screen states the offer.",
-    "The visitor picks their role and sees examples for it.",
+    "The visitor picks their role and sees real situations for it.",
     "The program is shown week by week.",
     "Two plans, a FAQ and an application form close the page."
   ],

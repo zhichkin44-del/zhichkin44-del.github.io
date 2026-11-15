@@ -5,7 +5,7 @@
   ],
   "order": 1,
   "thumb": {
-    "src": "/work/ai-spend-audit/01.webp",
+    "src": "/work/ai-spend-audit/02.webp",
     "alt": "Spend audit for an AI coding assistant"
   },
   "title": "Spend audit for an AI coding assistant",
@@ -13,11 +13,11 @@
   "category": "Automation",
   "hero": {
     "tall": false,
-    "caption": "Project cover.",
-    "src": "/work/ai-spend-audit/01.webp",
-    "w": 1320,
-    "h": 880,
-    "alt": "Project cover."
+    "caption": "The spend report.",
+    "src": "/work/ai-spend-audit/02.webp",
+    "w": 1600,
+    "h": 1000,
+    "alt": "The spend report."
   },
   "problem": "The bill keeps growing and nobody can say what it is made of. People want to see spend by project and session and find where money is lost.",
   "built": [
@@ -28,14 +28,6 @@
   ],
   "shots_title": "Screens",
   "shots": [
-    {
-      "tall": false,
-      "caption": "The spend report.",
-      "src": "/work/ai-spend-audit/02.webp",
-      "w": 1600,
-      "h": 1000,
-      "alt": "The spend report."
-    },
     {
       "tall": false,
       "caption": "Report details.",
@@ -70,7 +62,7 @@
   "stack": [
     "TypeScript",
     "Node.js",
-    "A local database"
+    "SQLite"
   ],
   "offer": [
     "Analysis of your logs: a report and a list of recommendations."

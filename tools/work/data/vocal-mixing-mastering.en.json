@@ -5,7 +5,7 @@
   ],
   "order": 26,
   "thumb": {
-    "src": "/work/vocal-mixing-mastering/01.webp",
+    "src": "/work/vocal-mixing-mastering/02.webp",
     "alt": "Vocal mixing and mastering with a report"
   },
   "title": "Vocal mixing and mastering with a report",
@@ -13,11 +13,11 @@
   "category": "Video & audio",
   "hero": {
     "tall": false,
-    "caption": "Project cover.",
-    "src": "/work/vocal-mixing-mastering/01.webp",
-    "w": 1320,
-    "h": 880,
-    "alt": "Project cover."
+    "caption": "Before and after: the shape of the sound.",
+    "src": "/work/vocal-mixing-mastering/02.webp",
+    "w": 1280,
+    "h": 720,
+    "alt": "Before and after: the shape of the sound."
   },
   "problem": "The vocal was recorded at home: peaks on syllables, uneven loudness, sibilance on s, rumble. Together with the beat it sounds uneven and quiet.",
   "built": [
@@ -29,14 +29,6 @@
   ],
   "shots_title": "Screens",
   "shots": [
-    {
-      "tall": false,
-      "caption": "Before and after: the shape of the sound.",
-      "src": "/work/vocal-mixing-mastering/02.webp",
-      "w": 1280,
-      "h": 720,
-      "alt": "Before and after: the shape of the sound."
-    },
     {
       "tall": false,
       "caption": "Measurements of the voice.",

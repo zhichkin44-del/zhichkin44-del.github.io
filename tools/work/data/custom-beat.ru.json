@@ -30,14 +30,6 @@
   "shots": [
     {
       "tall": false,
-      "caption": "Отчёт проверки сетки.",
-      "src": "/work/custom-beat/02.webp",
-      "w": 1280,
-      "h": 720,
-      "alt": "Отчёт проверки сетки."
-    },
-    {
-      "tall": false,
       "caption": "Отчёт проверки громкости.",
       "src": "/work/custom-beat/03.webp",
       "w": 1280,

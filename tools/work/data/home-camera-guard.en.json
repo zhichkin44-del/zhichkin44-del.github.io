@@ -6,7 +6,7 @@
   ],
   "order": 9,
   "thumb": {
-    "src": "/work/home-camera-guard/01.webp",
+    "src": "/work/home-camera-guard/02.webp",
     "alt": "Home camera guard for Windows"
   },
   "title": "Home camera guard for Windows",
@@ -14,11 +14,11 @@
   "category": "Apps / Automation",
   "hero": {
     "tall": false,
-    "caption": "Project cover.",
-    "src": "/work/home-camera-guard/01.webp",
-    "w": 1320,
-    "h": 880,
-    "alt": "Project cover."
+    "caption": "Diagram of how the pipeline works, drawn from the project code.",
+    "src": "/work/home-camera-guard/02.webp",
+    "w": 1600,
+    "h": 900,
+    "alt": "Diagram of how the pipeline works, drawn from the project code."
   },
   "problem": "People want a guard that runs at home, does not send video to the internet and does not wake them for nothing: shadows, cats and headlights.",
   "built": [
@@ -30,14 +30,6 @@
   ],
   "shots_title": "Screens",
   "shots": [
-    {
-      "tall": false,
-      "caption": "Diagram of how the pipeline works, drawn from the project code.",
-      "src": "/work/home-camera-guard/02.webp",
-      "w": 1600,
-      "h": 900,
-      "alt": "Diagram of how the pipeline works, drawn from the project code."
-    },
     {
       "tall": false,
       "caption": "The recognition rules of the false-alarm judge, drawn from the project code.",
@@ -73,5 +65,5 @@
     "Condition: the laptop must stay awake and plugged in."
   ],
   "not_included": "",
-  "price_en": "Starting at pilot $180 for a pilot"
+  "price_en": "Pilot from $180"
 }

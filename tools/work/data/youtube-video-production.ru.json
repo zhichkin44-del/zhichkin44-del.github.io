@@ -31,14 +31,6 @@
   "shots": [
     {
       "tall": false,
-      "caption": "Этапы производства.",
-      "src": "/work/youtube-video-production/02.webp",
-      "w": 1280,
-      "h": 720,
-      "alt": "Этапы производства."
-    },
-    {
-      "tall": false,
       "caption": "Кадры из готового видео.",
       "src": "/work/youtube-video-production/03.webp",
       "w": 1280,
