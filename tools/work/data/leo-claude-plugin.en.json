@@ -13,11 +13,11 @@
   "category": "Automation",
   "hero": {
     "tall": false,
-    "caption": "Test run: 57 of 57 pass.",
+    "caption": "All 57 automated checks pass (screenshot of the run).",
     "src": "/work/leo-claude-plugin/01.webp",
     "w": 1280,
     "h": 800,
-    "alt": "Test run: 57 of 57 pass."
+    "alt": "All 57 automated checks pass (screenshot of the run)."
   },
   "problem": "After context compaction, a long Claude Code session loses the thread: it forgets the owner's decisions and what was promised. It needed a way to bring that context back and to double-check the final report.",
   "built": [

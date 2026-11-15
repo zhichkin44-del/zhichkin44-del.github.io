@@ -55,6 +55,6 @@
     "A summary to your Telegram.",
     "Run instructions."
   ],
-  "not_included": "Auto-replies; Closed channels or logins; CAPTCHA bypass; Hosting.",
+  "not_included": "Auto-replies; closed channels or logins; CAPTCHA bypass; hosting.",
   "price_en": "Starting at $65"
 }
