@@ -24,7 +24,7 @@
     "A catalogue with filters by type (glass, wax, sets) and sorting by price.",
     "A product page with a scent choice and a quantity.",
     "A cart where quantity can be changed and items removed, with the total always visible; the cart is remembered in the browser.",
-    "A 10% discount that is calculated automatically from a set order total.",
+    "A 10% discount that switches on by itself once the order total reaches the threshold in the shop settings.",
     "An order form (name, phone, address, comment) and a choice of delivery service."
   ],
   "shots_title": "Screens",

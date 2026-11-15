@@ -13,11 +13,11 @@
   "category": "Automation",
   "hero": {
     "tall": false,
-    "caption": "The report: 93% of the cost is re-reading the prompt, a call-by-call chart of what the prompt is made of, and the cost as recorded vs with the compaction rule.",
+    "caption": "The report for one recorded session: 93% of its cost is re-reading the prompt, a call-by-call chart of what the prompt is made of, and the cost as recorded vs with the compaction rule.",
     "src": "/work/ai-spend-audit/02.webp",
     "w": 1600,
     "h": 1000,
-    "alt": "The report: 93% of the cost is re-reading the prompt, a call-by-call chart of what the prompt is made of, and the cost as recorded vs with the compaction rule."
+    "alt": "The report for one recorded session: 93% of its cost is re-reading the prompt, a call-by-call chart of what the prompt is made of, and the cost as recorded vs with the compaction rule."
   },
   "problem": "The bill keeps growing and nobody can say what it is made of. People want to see spend by project and session and find where money is lost.",
   "built": [
