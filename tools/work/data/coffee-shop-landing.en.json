@@ -1,0 +1,50 @@
+{
+  "slug": "coffee-shop-landing",
+  "cats": [
+    "Websites"
+  ],
+  "order": 15,
+  "thumb": {
+    "src": "/work/coffee-shop-landing/01.webp",
+    "alt": "Landing page for a coffee shop"
+  },
+  "title": "Landing page for a coffee shop",
+  "lead": "Menu, address, hours and table booking from a phone, in a warm style without cafe kitsch.",
+  "category": "Websites",
+  "hero": {
+    "tall": false,
+    "caption": "First screen (desktop).",
+    "src": "/work/coffee-shop-landing/01.webp",
+    "w": 1280,
+    "h": 1500,
+    "alt": "First screen (desktop)."
+  },
+  "problem": "A coffee shop that roasts its own beans needs a one-page site: menu, address, hours and table booking from a phone, in a warm style without cafe kitsch.",
+  "built": [
+    "A page with the name and a booking button.",
+    "A passport for each coffee, and a menu.",
+    "An address on a map scheme, and hours.",
+    "A booking form.",
+    "Reads on a phone without horizontal scrolling."
+  ],
+  "shots_title": "Screens",
+  "shots": [],
+  "steps": [
+    "The first screen shows the name and the booking button.",
+    "A passport for each coffee tells the story of the beans.",
+    "Menu, address and hours follow.",
+    "A booking form closes the page."
+  ],
+  "stack": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "offer": [
+    "A one-page site from your texts and photos.",
+    "A booking form connected to your Telegram, email or CRM (part of a real order).",
+    "A phone check."
+  ],
+  "not_included": "",
+  "price_en": "Starting at $80"
+}

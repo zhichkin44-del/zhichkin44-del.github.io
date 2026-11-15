@@ -1,0 +1,66 @@
+{
+  "slug": "barbershop-booking-bot",
+  "cats": [
+    "Bots"
+  ],
+  "order": 6,
+  "thumb": {
+    "src": "/work/barbershop-booking-bot/01.webp",
+    "alt": "Barbershop clients book in Telegram, 24/7"
+  },
+  "title": "Barbershop clients book in Telegram, 24/7",
+  "lead": "Booking in a chat: service, master, day and time, with taken slots blocked, cancellation and an owner panel.",
+  "category": "Bots",
+  "hero": {
+    "tall": false,
+    "caption": "Bot page with its in-browser version (desktop).",
+    "src": "/work/barbershop-booking-bot/01.webp",
+    "w": 1280,
+    "h": 1500,
+    "alt": "Bot page with its in-browser version (desktop)."
+  },
+  "problem": "A barbershop wants clients to book themselves in a chat: choose a service, a master, a day and a time, get a confirmation, and be reminded a day and two hours before. The owner needs to be told about each booking and to see all of them in a table.",
+  "built": [
+    "A page for the bot and an in-browser version of it: you can go through a whole booking with buttons, from service to confirmation.",
+    "Times that are taken or already past cannot be chosen; cancelling a booking frees the slot.",
+    "The owner gets a notification and has a bookings panel.",
+    "The real Telegram bot is launched after an order; the client creates the bot token."
+  ],
+  "shots_title": "Screens",
+  "shots": [
+    {
+      "tall": true,
+      "caption": "In-browser version on a phone: a finished booking.",
+      "src": "/work/barbershop-booking-bot/02.webp",
+      "w": 375,
+      "h": 845,
+      "alt": "In-browser version on a phone: a finished booking."
+    },
+    {
+      "tall": false,
+      "caption": "Bookings panel.",
+      "src": "/work/barbershop-booking-bot/03.webp",
+      "w": 1232,
+      "h": 905,
+      "alt": "Bookings panel."
+    }
+  ],
+  "steps": [
+    "The client picks a service, a master, a day and a time with buttons.",
+    "The bot confirms the booking in the chat.",
+    "Reminders go out a day and two hours before the visit.",
+    "Cancelling frees the slot; the owner is notified and sees the booking in a table."
+  ],
+  "stack": [
+    "Telegram bot",
+    "In-browser version of the bot (HTML, CSS, JavaScript)"
+  ],
+  "offer": [
+    "A booking bot for your salon, studio or solo master: services, masters, working hours.",
+    "Reminders, cancellation and an owner notification.",
+    "A bookings table for the owner.",
+    "Setup on your Telegram bot token."
+  ],
+  "not_included": "Connection to any CRM without looking at it first.",
+  "price_en": "Starting at $79"
+}

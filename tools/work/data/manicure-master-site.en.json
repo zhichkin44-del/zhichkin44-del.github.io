@@ -1,0 +1,59 @@
+{
+  "slug": "manicure-master-site",
+  "cats": [
+    "Websites"
+  ],
+  "order": 16,
+  "thumb": {
+    "src": "/work/manicure-master-site/01.webp",
+    "alt": "Business-card site for a manicure master"
+  },
+  "title": "Business-card site for a manicure master",
+  "lead": "Services with prices, a gallery, reviews and three booking buttons, in a calm light style.",
+  "category": "Websites",
+  "hero": {
+    "tall": false,
+    "caption": "First screen (desktop).",
+    "src": "/work/manicure-master-site/01.webp",
+    "w": 1280,
+    "h": 1500,
+    "alt": "First screen (desktop)."
+  },
+  "problem": "A master needs a calm, light site: services with prices, 12-15 works, three booking buttons (Telegram, WhatsApp, phone call), address and schedule.",
+  "built": [
+    "Services and prices in an expandable list.",
+    "A gallery of works.",
+    "Reviews.",
+    "Address with schedule and three booking buttons.",
+    "A responsive phone version."
+  ],
+  "shots_title": "Screens",
+  "shots": [
+    {
+      "tall": true,
+      "caption": "First screen on a phone.",
+      "src": "/work/manicure-master-site/03.webp",
+      "w": 375,
+      "h": 1600,
+      "alt": "First screen on a phone."
+    }
+  ],
+  "steps": [
+    "The first screen gives a name and the booking buttons.",
+    "Services with prices open in a list.",
+    "A gallery and reviews build trust.",
+    "Address, schedule and three ways to book."
+  ],
+  "stack": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "offer": [
+    "A business-card site from your texts and photos.",
+    "Booking buttons set to your Telegram, WhatsApp and phone.",
+    "A phone check."
+  ],
+  "not_included": "",
+  "price_en": "Starting at $80"
+}

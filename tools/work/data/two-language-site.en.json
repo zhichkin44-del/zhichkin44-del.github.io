@@ -1,0 +1,74 @@
+{
+  "slug": "two-language-site",
+  "cats": [
+    "Websites"
+  ],
+  "order": 13,
+  "thumb": {
+    "src": "/work/two-language-site/01.webp",
+    "alt": "Fast two-language website with a catalogue of work"
+  },
+  "title": "Fast two-language website with a catalogue of work",
+  "lead": "Home page, a catalogue and a page for each item in two languages, readable on a phone.",
+  "category": "Websites",
+  "hero": {
+    "tall": false,
+    "caption": "Project cover.",
+    "src": "/work/two-language-site/01.webp",
+    "w": 1320,
+    "h": 880,
+    "alt": "Project cover."
+  },
+  "problem": "Make it clear within a minute what the author does and what has been done. Pages should open fast, read well on a phone and in two languages, and a new item should be addable without rebuilding the site.",
+  "built": [
+    "Home: headline, three main projects, a how-it-works section, a resume and contacts.",
+    "A catalogue and a page for each project: task, what was done, screenshots.",
+    "The English version has no Russian words; language versions and a sitemap are set up for search engines.",
+    "Menu and pages work on a phone from 320 px wide; accessibility is checked automatically on every page.",
+    "A new item is added with one data file and goes straight into the checks."
+  ],
+  "shots_title": "Screens",
+  "shots": [
+    {
+      "tall": false,
+      "caption": "The catalogue.",
+      "src": "/work/two-language-site/03.webp",
+      "w": 1280,
+      "h": 720,
+      "alt": "The catalogue."
+    },
+    {
+      "tall": false,
+      "caption": "A project page.",
+      "src": "/work/two-language-site/04.webp",
+      "w": 1280,
+      "h": 720,
+      "alt": "A project page."
+    },
+    {
+      "tall": true,
+      "caption": "The phone view (375 px).",
+      "src": "/work/two-language-site/05.webp",
+      "w": 750,
+      "h": 1624,
+      "alt": "The phone view (375 px)."
+    }
+  ],
+  "steps": [
+    "Content lives in data files and texts.",
+    "The site is built into plain fast pages in two languages.",
+    "Every page goes through automatic checks, including accessibility.",
+    "A new project is one new data file."
+  ],
+  "stack": [
+    "Astro",
+    "TypeScript"
+  ],
+  "offer": [
+    "A site in 1-2 languages: a home page and a catalogue built from your texts and images.",
+    "Design in this style or to your references; a phone check.",
+    "Site files ready to put on your hosting."
+  ],
+  "not_included": "Domain and hosting (you pay for them); A request form, a shop, a personal account; Writing the texts, if you have none.",
+  "price_en": "Starting at $80"
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "job-feed-bot",
+  "cats": [
+    "Bots",
+    "Automation"
+  ],
+  "order": 2,
+  "thumb": {
+    "src": "/work/job-feed-bot/01.webp",
+    "alt": "A daily scored pick of the best job posts"
+  },
+  "title": "A daily scored pick of the best job posts",
+  "lead": "Collects vacancies from open feeds, scores each against your profile and sends up to 10 best cards a day to Telegram.",
+  "category": "Bots / Automation",
+  "hero": {
+    "tall": false,
+    "caption": "Project cover.",
+    "src": "/work/job-feed-bot/01.webp",
+    "w": 1320,
+    "h": 880,
+    "alt": "Project cover."
+  },
+  "problem": "Suitable vacancies are scattered across feeds, with many duplicates and wrong roles. The need was one short daily list.",
+  "built": [
+    "Collection from open feeds and public channels, with no account logins.",
+    "Duplicate merging, and filtering by rules such as wrong role or not remote.",
+    "A score-based pick: from 55 points, at most 10 a day, no repeats.",
+    "Card buttons (Open, Sent, Skip, Not mine) remember your answer; Not mine is taken into account later.",
+    "A letter draft from your approved wording; the model's reply drafts are checked against your profile facts, so it does not invent experience, and figures are checked against your facts."
+  ],
+  "shots_title": "Screens",
+  "shots": [
+    {
+      "tall": false,
+      "caption": "The daily digest Russian text.",
+      "src": "/work/job-feed-bot/03.webp",
+      "w": 1280,
+      "h": 800,
+      "alt": "The daily digest Russian text."
+    },
+    {
+      "tall": true,
+      "caption": "On a phone Russian text.",
+      "src": "/work/job-feed-bot/04.webp",
+      "w": 750,
+      "h": 1624,
+      "alt": "On a phone Russian text."
+    }
+  ],
+  "steps": [
+    "Feeds are collected without logging in anywhere.",
+    "Duplicates are merged and wrong roles are filtered out.",
+    "Each vacancy is scored against your profile.",
+    "Up to 10 cards a day reach Telegram, and your button presses train the next pick."
+  ],
+  "stack": [
+    "Node.js",
+    "Telegram Bot API"
+  ],
+  "offer": [
+    "Setup for your profile and rules.",
+    "Cards with buttons in your Telegram.",
+    "Run instructions."
+  ],
+  "not_included": "Automatic sending of applications; Closed channels; CAPTCHA bypass; Hosting.",
+  "price_en": "Starting at $65"
+}

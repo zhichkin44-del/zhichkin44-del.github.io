@@ -1,0 +1,59 @@
+{
+  "slug": "english-course-landing",
+  "cats": [
+    "Websites"
+  ],
+  "order": 20,
+  "thumb": {
+    "src": "/work/english-course-landing/01.webp",
+    "alt": "Landing page for an online course"
+  },
+  "title": "Landing page for an online course",
+  "lead": "A course landing with an offer, a program by weeks, two price columns, a FAQ and an application form.",
+  "category": "Websites",
+  "hero": {
+    "tall": false,
+    "caption": "First screen (desktop).",
+    "src": "/work/english-course-landing/01.webp",
+    "w": 1280,
+    "h": 800,
+    "alt": "First screen (desktop)."
+  },
+  "problem": "An author selling an English course for IT people needs a landing page: a clear offer, who it is for (front end, back end, QA, devops), a six-week program, what students get, two price columns, a FAQ and an application form.",
+  "built": [
+    "A first screen with a clear offer and a live call-simulation widget.",
+    "A who-it's-for block with examples for each role.",
+    "A six-week program laid out as a timeline.",
+    "A what-you-get block showing sample materials of the course.",
+    "Two price columns, an about-the-author block and a FAQ."
+  ],
+  "shots_title": "Screens",
+  "shots": [
+    {
+      "tall": true,
+      "caption": "First screen on a phone.",
+      "src": "/work/english-course-landing/04.webp",
+      "w": 375,
+      "h": 812,
+      "alt": "First screen on a phone."
+    }
+  ],
+  "steps": [
+    "The first screen states the offer.",
+    "The visitor picks their role and sees examples for it.",
+    "The program is shown week by week.",
+    "Two plans, a FAQ and an application form close the page."
+  ],
+  "stack": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "offer": [
+    "A course landing built from your texts and materials.",
+    "Applications sent to your Telegram, email or CRM (part of a real order).",
+    "A phone check."
+  ],
+  "not_included": "",
+  "price_en": "Starting at $80"
+}
