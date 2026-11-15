@@ -22,7 +22,7 @@
   "problem": "A team where part of the routine is done by automated assistants (programs that check warehouse stock, collect orders, prepare reports) needed one place to see what each assistant is doing and to answer it, instead of digging through email and different windows.",
   "built": [
     "Familiar chats: direct messages and group rooms, voice messages, photos, documents, search.",
-    "Cards instead of walls of text: an assistant posts working, done or failed; asks a question with buttons ('Send buyers a reminder? Send / Wait') and acts only after your answer",
+    "Cards instead of walls of text: an assistant posts working, done or failed; asks a question with buttons ('Send buyers a reminder? Send / Wait') and acts only after your answer.",
     "Works on phone and desktop.",
     "You stay in control: invite-only sign-up, an owner panel unlocked with a code from the owner's phone, an activity log, and a daily backup of the data."
   ],

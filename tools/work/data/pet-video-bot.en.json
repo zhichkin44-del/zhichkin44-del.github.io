@@ -14,11 +14,11 @@
   "category": "Bots / Automation",
   "hero": {
     "tall": false,
-    "caption": "Test run: 84 of 84 pass.",
+    "caption": "All 84 automated checks pass (screenshot of the run).",
     "src": "/work/pet-video-bot/01.webp",
     "w": 1280,
     "h": 800,
-    "alt": "Test run: 84 of 84 pass."
+    "alt": "All 84 automated checks pass (screenshot of the run)."
   },
   "problem": "A person with no technical background needs to shoot a video about a pet regularly and publish it on several platforms. The bot does the guiding and the editing; the person publishes.",
   "built": [

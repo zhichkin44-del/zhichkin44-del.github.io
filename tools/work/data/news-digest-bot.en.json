@@ -59,7 +59,7 @@
     "Feeds are polled every two minutes.",
     "Stories about one event are merged and scored.",
     "A short post with a picture is prepared and checked.",
-    "After your approval it is published to the channel"
+    "After your approval it is published to the channel."
   ],
   "stack": [
     "Node.js",
@@ -70,6 +70,6 @@
     "Post checks and an approval step.",
     "Morning and evening summaries."
   ],
-  "not_included": "24/7 operation without a server; Any promise of reach or subscribers; Photos taken from feeds; source links in posts.",
+  "not_included": "24/7 operation without a server; any promise of reach or subscribers; photos taken from feeds; source links in posts.",
   "price_en": "Starting at $45"
 }

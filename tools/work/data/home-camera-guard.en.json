@@ -24,7 +24,7 @@
   "built": [
     "Capture from an ordinary camera; a recording keeps about 10 seconds before a person appears and up to a minute after they leave; recordings are kept for 14 days.",
     "Person detection on your computer: the model is a plain file on disk and runs offline; with a graphics card a more accurate model can be switched on.",
-    "A judge against false alarms with five rules: a person in at least 3 of 5 frames in a row; uncertain detections dropped; tiny boxes ignored",
+    "A judge against false alarms with five rules: a person in at least 3 of 5 frames in a row; uncertain detections dropped; tiny boxes ignored.",
     "Messages: someone is home, is it you? (30 seconds to answer), then an alarm with a recording; an all-is-well message on a schedule; camera offline within a minute.",
     "Arming and disarming with a PIN."
   ],
