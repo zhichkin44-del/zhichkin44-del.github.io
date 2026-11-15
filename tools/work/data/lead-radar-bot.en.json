@@ -14,11 +14,11 @@
   "category": "Bots / Automation",
   "hero": {
     "tall": false,
-    "caption": "The morning summary in Telegram: 16 orders from 3 channels, why one channel is silent (HTTP 403), and for each order the platform, budget, reply count and age (in Russian).",
+    "caption": "The morning summary in Telegram: 16 orders from 3 channels, one channel not responding (error 403), and for each order the platform, budget, reply count and age (in Russian).",
     "src": "/work/lead-radar-bot/01.webp",
     "w": 1280,
     "h": 800,
-    "alt": "The morning summary in Telegram: 16 orders from 3 channels, why one channel is silent (HTTP 403), and for each order the platform, budget, reply count and age (in Russian)."
+    "alt": "The morning summary in Telegram: 16 orders from 3 channels, one channel not responding (error 403), and for each order the platform, budget, reply count and age (in Russian)."
   },
   "problem": "Orders appear on a dozen platforms at once, with a lot of noise: job ads, reviews, filler. Good orders go within hours. The need was a short list instead of scrolling feeds.",
   "built": [

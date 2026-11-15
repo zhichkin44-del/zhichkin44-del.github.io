@@ -13,11 +13,11 @@
   "category": "Websites",
   "hero": {
     "tall": false,
-    "caption": "First screen (desktop).",
+    "caption": "Call Ready English: the offer, a sample call dialogue and Join the next cohort.",
     "src": "/work/english-course-landing/01.webp",
     "w": 1280,
     "h": 800,
-    "alt": "First screen (desktop)."
+    "alt": "Call Ready English: the offer, a sample call dialogue and Join the next cohort."
   },
   "problem": "An author selling an English course for IT people needs a landing page: a clear offer, who it is for (front end, back end, QA, devops), a six-week program, what students get, two price columns, a FAQ and an application form.",
   "built": [
@@ -31,11 +31,11 @@
   "shots": [
     {
       "tall": true,
-      "caption": "First screen on a phone.",
+      "caption": "The same Call Ready English page on a phone.",
       "src": "/work/english-course-landing/04.webp",
       "w": 375,
       "h": 812,
-      "alt": "First screen on a phone."
+      "alt": "The same Call Ready English page on a phone."
     }
   ],
   "steps": [

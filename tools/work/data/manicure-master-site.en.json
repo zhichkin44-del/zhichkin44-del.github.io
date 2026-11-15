@@ -13,11 +13,11 @@
   "category": "Websites",
   "hero": {
     "tall": false,
-    "caption": "First screen (desktop).",
+    "caption": "Lacquer & Dot nail studio: Telegram, WhatsApp and Call buttons, hours and address, then the price list with fixed prices.",
     "src": "/work/manicure-master-site/01.webp",
     "w": 1280,
     "h": 1500,
-    "alt": "First screen (desktop)."
+    "alt": "Lacquer & Dot nail studio: Telegram, WhatsApp and Call buttons, hours and address, then the price list with fixed prices."
   },
   "problem": "A master needs a calm, light site: services with prices, 12-15 works, three booking buttons (Telegram, WhatsApp, phone call), address and schedule.",
   "built": [
@@ -31,11 +31,11 @@
   "shots": [
     {
       "tall": true,
-      "caption": "First screen on a phone.",
+      "caption": "The same nail-studio page on a phone.",
       "src": "/work/manicure-master-site/03.webp",
       "w": 375,
       "h": 1600,
-      "alt": "First screen on a phone."
+      "alt": "The same nail-studio page on a phone."
     }
   ],
   "steps": [

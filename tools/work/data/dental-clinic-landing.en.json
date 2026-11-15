@@ -13,11 +13,11 @@
   "category": "Websites",
   "hero": {
     "tall": false,
-    "caption": "First screen (desktop).",
+    "caption": "Nocturne Dental, first screen: a book-your-first-visit form and a phone number.",
     "src": "/work/dental-clinic-landing/01.webp",
     "w": 1280,
     "h": 800,
-    "alt": "First screen (desktop)."
+    "alt": "Nocturne Dental, first screen: a book-your-first-visit form and a phone number."
   },
   "problem": "A small private dental clinic has no site, and appointments are made by phone. It needs a one-page site with services and prices, doctors, reviews, a licence number, an address with a map, opening hours and, above all, an appointment form.",
   "built": [
@@ -39,11 +39,11 @@
     },
     {
       "tall": true,
-      "caption": "First screen on a phone.",
+      "caption": "The same Nocturne Dental first screen on a phone.",
       "src": "/work/dental-clinic-landing/04.webp",
       "w": 375,
       "h": 812,
-      "alt": "First screen on a phone."
+      "alt": "The same Nocturne Dental first screen on a phone."
     }
   ],
   "steps": [
