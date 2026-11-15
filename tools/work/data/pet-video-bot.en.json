@@ -6,12 +6,20 @@
   ],
   "order": 5,
   "thumb": {
-    "text": "Telegram"
+    "src": "/work/pet-video-bot/01.webp",
+    "alt": "A Telegram bot that guides daily pet-video shooting"
   },
   "title": "A Telegram bot that guides daily pet-video shooting",
   "lead": "Leads a non-technical person through daily shooting tasks, assembles a vertical clip with ffmpeg and writes the post text for each platform.",
   "category": "Bots / Automation",
-  "hero": null,
+  "hero": {
+    "tall": false,
+    "caption": "Test run: 84 of 84 pass.",
+    "src": "/work/pet-video-bot/01.webp",
+    "w": 1280,
+    "h": 800,
+    "alt": "Test run: 84 of 84 pass."
+  },
   "problem": "A person with no technical background needs to shoot a video about a pet regularly and publish it on several platforms. The bot does the guiding and the editing; the person publishes.",
   "built": [
     "A task script: first-week and second-week tasks, with videos and answers received in the chat.",
