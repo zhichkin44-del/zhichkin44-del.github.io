@@ -1,0 +1,85 @@
+{
+  "slug": "laptop-alarm",
+  "cats": [
+    "Apps"
+  ],
+  "order": 12,
+  "thumb": {
+    "src": "/work/laptop-alarm/01.webp",
+    "alt": "Signalka: room security by sound"
+  },
+  "title": "Signalka: room security by sound, no cameras",
+  "lead": "Guards a room by sound, with no cameras: a sound louder than the background sends a message with a recording, then a siren. It also guards the PC and detects jamming. Runs locally, no cloud.",
+  "category": "Apps",
+  "hero": {
+    "tall": false,
+    "caption": "Project cover.",
+    "src": "/work/laptop-alarm/01.webp",
+    "w": 1320,
+    "h": 880,
+    "alt": "Project cover."
+  },
+  "problem": "Guard a room or a workplace when you are away, without cameras and without a cloud service: the system listens, tells you at once and sounds a siren.",
+  "built": [
+    "Guard by sound through a microphone, no cameras: press \"I'm leaving\", 60 seconds later the room is armed.",
+    "A sound louder than the background sends a message with a recording, then a siren (an alarm ladder).",
+    "PIN of 6 digits, 6 attempts.",
+    "Heartbeat: if Signalka goes silent, you get the message \"Signalka went silent\".",
+    "Jamming detection: noise above the threshold for 10 seconds raises a \"jamming\" alarm; a daily sweep from the speaker must be heard by the microphone.",
+    "Runs locally on an always-on PC with a USB microphone and a Bluetooth speaker, with its own cellular modem. No cloud.",
+    "PC protection: a siren when the power cable is unplugged or a USB device is inserted; PIN stored with scrypt; 26 automated tests pass.",
+    "Next: a microphone array for sound direction and a 3D map of the room, then analysis."
+  ],
+  "shots_title": "Screens",
+  "shots": [
+    {
+      "tall": false,
+      "caption": "Diagram of how Signalka works.",
+      "src": "/work/laptop-alarm/02.webp",
+      "w": 1600,
+      "h": 900,
+      "alt": "Diagram of how Signalka works."
+    },
+    {
+      "tall": false,
+      "caption": "Event log of the Signalka guard engine.",
+      "src": "/work/laptop-alarm/03.webp",
+      "w": 1600,
+      "h": 1000,
+      "alt": "Event log of the Signalka guard engine."
+    },
+    {
+      "tall": false,
+      "caption": "The tray menu with the PIN box. The app has no window, only a tray icon.",
+      "src": "/work/laptop-alarm/04.webp",
+      "w": 1280,
+      "h": 720,
+      "alt": "The tray menu with the PIN box. The app has no window, only a tray icon."
+    },
+    {
+      "tall": true,
+      "caption": "Alarm message on a phone.",
+      "src": "/work/laptop-alarm/05.webp",
+      "w": 750,
+      "h": 1624,
+      "alt": "Alarm message on a phone."
+    }
+  ],
+  "steps": [
+    "Press \"I'm leaving\"; after 60 seconds the room is armed.",
+    "A sound louder than the background is heard by the microphone.",
+    "You get a message with a recording; the siren follows up the alarm ladder.",
+    "If Signalka goes silent or the sound is jammed, you are told too."
+  ],
+  "stack": [
+    "Microphone",
+    "Node.js (PC protection, no third-party libraries)",
+    "PowerShell"
+  ],
+  "offer": [
+    "Setting it up on your PC: microphone, speaker, PIN, alerts, autostart.",
+    "Adapting it to you: thresholds, alarm ladder, a settings window, an installer."
+  ],
+  "not_included": "A guarantee against theft.",
+  "price_en": "Starting at $60"
+}

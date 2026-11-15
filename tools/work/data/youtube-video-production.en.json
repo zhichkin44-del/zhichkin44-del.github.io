@@ -1,0 +1,74 @@
+{
+  "slug": "youtube-video-production",
+  "cats": [
+    "Video & audio"
+  ],
+  "order": 22,
+  "thumb": {
+    "src": "/work/youtube-video-production/01.webp",
+    "alt": "A YouTube video from script to Shorts"
+  },
+  "title": "A YouTube video from script to Shorts",
+  "lead": "From one topic: an 8-11 minute video, vertical Shorts and thumbnails, with the checks done before handover.",
+  "category": "Video & audio",
+  "hero": {
+    "tall": false,
+    "caption": "Project cover.",
+    "src": "/work/youtube-video-production/01.webp",
+    "w": 1320,
+    "h": 880,
+    "alt": "Project cover."
+  },
+  "problem": "The client needed to release a video every week and several Shorts, but the script, voiceover, editing and thumbnails took all the time, and the channel came out irregularly.",
+  "built": [
+    "A script of 1,100-1,350 words with a list of facts and sources.",
+    "Voiceover in an even synthetic voice; the video description says so.",
+    "Editing in which the picture changes with the meaning of the speech: maps, portraits, objects, captions burned into the frame.",
+    "Loudness set to one level: -14.1 LUFS on the finished video.",
+    "Shorts: vertical 1080x1920 videos of 49-51 seconds, one file for YouTube and TikTok."
+  ],
+  "shots_title": "Screens",
+  "shots": [
+    {
+      "tall": false,
+      "caption": "Production stages.",
+      "src": "/work/youtube-video-production/02.webp",
+      "w": 1280,
+      "h": 720,
+      "alt": "Production stages."
+    },
+    {
+      "tall": false,
+      "caption": "Frames from the finished video.",
+      "src": "/work/youtube-video-production/03.webp",
+      "w": 1280,
+      "h": 720,
+      "alt": "Frames from the finished video."
+    },
+    {
+      "tall": false,
+      "caption": "Frames from the vertical Shorts.",
+      "src": "/work/youtube-video-production/04.webp",
+      "w": 1280,
+      "h": 720,
+      "alt": "Frames from the vertical Shorts."
+    }
+  ],
+  "steps": [
+    "You give a topic.",
+    "A script with facts and sources is written and voiced.",
+    "The video is edited to the meaning of the speech, then checked automatically.",
+    "You receive the video, Shorts, subtitles, thumbnails and upload text."
+  ],
+  "stack": [
+    "Python",
+    "HTML graphics"
+  ],
+  "offer": [
+    "A full 4K video, or a part of it: only Shorts, only voiceover and subtitles.",
+    "Upload files: the video, .srt subtitles, three thumbnails, a description with chapters and tags.",
+    "Revisions for each part; the number is in the service package."
+  ],
+  "not_included": "Publishing on the channel; Any promise of views, subscribers or monetization.",
+  "price_en": "Price: on request, after a short brief"
+}

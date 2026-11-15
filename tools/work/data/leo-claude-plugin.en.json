@@ -1,0 +1,48 @@
+{
+  "slug": "leo-claude-plugin",
+  "cats": [
+    "Automation"
+  ],
+  "order": 0,
+  "thumb": {
+    "text": "Claude Code"
+  },
+  "title": "A Claude Code plugin that remembers decisions and checks the final answer",
+  "lead": "Restores decisions and promises after context compaction, and has a second model act as a skeptic before the final report.",
+  "category": "Automation",
+  "hero": null,
+  "problem": "After context compaction, a long Claude Code session loses the thread: it forgets the owner's decisions and what was promised. It needed a way to bring that context back and to double-check the final report.",
+  "built": [
+    "A SessionStart hook (on compact and resume) puts a summary back into context: working windows, decisions waiting for the owner, the day's rules.",
+    "A Stop hook runs Claude Haiku as a skeptic on final answers. It looks for unverified claims and missed promises; a serious finding blocks the answer with a reason.",
+    "The Haiku call is isolated: no tools, a single turn, a timeout.",
+    "New rules from the owner's messages are never written automatically: the plugin only prompts the lead, and the decision stays with the owner. No trigger words are hard-coded.",
+    "Changes from the skeptic's own review are included."
+  ],
+  "shots_title": "Test run",
+  "shots": [
+    {
+      "tall": false,
+      "caption": "node --test summary of the plugin (v0.1.0, zero dependencies). Individual test names are in Russian.",
+      "pre": "$ node --test\n...\nℹ tests 57\nℹ suites 0\nℹ pass 57\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0"
+    }
+  ],
+  "steps": [
+    "A SessionStart hook restores decisions and promises after compaction.",
+    "A Stop hook sends the final answer to a tool-free, single-turn Haiku skeptic with a timeout.",
+    "A serious finding blocks the answer and shows the reason.",
+    "Everything runs on Node.js with no external dependencies."
+  ],
+  "stack": [
+    "Node.js (ESM)",
+    "Claude Code hooks",
+    "Claude Haiku",
+    "node:test"
+  ],
+  "offer": [
+    "A Claude Code plugin with the two hooks, set up for your workflow.",
+    "Tests for hook behaviour, safe failures and timeouts."
+  ],
+  "not_included": "Support for other assistants; a promised quality gain in percent.",
+  "price_en": "Price: on request, after a short brief"
+}

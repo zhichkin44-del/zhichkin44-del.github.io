@@ -1,0 +1,71 @@
+{
+  "slug": "business-card-site",
+  "cats": [
+    "Websites"
+  ],
+  "order": 14,
+  "thumb": {
+    "src": "/work/business-card-site/01.webp",
+    "alt": "Business-card website in Russian and English"
+  },
+  "title": "Business-card website in Russian and English",
+  "lead": "Who you are, how you work and how to reach you, readable on one phone screen.",
+  "category": "Websites",
+  "hero": {
+    "tall": false,
+    "caption": "Project cover.",
+    "src": "/work/business-card-site/01.webp",
+    "w": 1320,
+    "h": 880,
+    "alt": "Project cover."
+  },
+  "problem": "A person who arrives from a job reply or a social network should understand within a minute who you are, how you help and how to write to you, on a phone too.",
+  "built": [
+    "Sections: about, how I work, projects, resume, contacts, linked to each other.",
+    "Two language versions with a switcher; each project has its own page.",
+    "Pages fitted to a phone: text reads without zooming.",
+    "A sitemap and language versions set up for search engines; the build has 20 addresses and 8 projects."
+  ],
+  "shots_title": "Screens",
+  "shots": [
+    {
+      "tall": false,
+      "caption": "The resume section.",
+      "src": "/work/business-card-site/02.webp",
+      "w": 1280,
+      "h": 720,
+      "alt": "The resume section."
+    },
+    {
+      "tall": false,
+      "caption": "The how-I-work section.",
+      "src": "/work/business-card-site/03.webp",
+      "w": 1280,
+      "h": 720,
+      "alt": "The how-I-work section."
+    },
+    {
+      "tall": true,
+      "caption": "The phone view (375 px).",
+      "src": "/work/business-card-site/04.webp",
+      "w": 750,
+      "h": 1624,
+      "alt": "The phone view (375 px)."
+    }
+  ],
+  "steps": [
+    "Short intro and how you work.",
+    "Projects, each with its own page.",
+    "Resume and contacts.",
+    "The same in a second language, with a switcher."
+  ],
+  "stack": [
+    "Astro"
+  ],
+  "offer": [
+    "A site in 1-2 languages from your texts and images, design and a phone check.",
+    "Site files ready to put on your hosting."
+  ],
+  "not_included": "Domain and hosting (you pay for them); A request form, a shop, a personal account; Writing the texts.",
+  "price_en": "Starting at $80"
+}

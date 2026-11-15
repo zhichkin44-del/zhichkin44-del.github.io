@@ -1,0 +1,93 @@
+{
+  "slug": "windows-audio-player",
+  "cats": [
+    "Apps",
+    "Video & audio"
+  ],
+  "order": 10,
+  "thumb": {
+    "src": "/work/windows-audio-player/01.webp",
+    "alt": "Windows audio player: a glass desktop widget"
+  },
+  "title": "Windows audio player: a glass desktop widget",
+  "lead": "A small translucent player that sits on the desktop and builds a library from your folders.",
+  "category": "Apps / Video & audio",
+  "hero": {
+    "tall": false,
+    "caption": "Project cover.",
+    "src": "/work/windows-audio-player/01.webp",
+    "w": 1280,
+    "h": 720,
+    "alt": "Project cover."
+  },
+  "problem": "Music lives in folders on a computer. Big players are heavy and cover half the screen, and a browser tab gets lost or gets in the way. A player should always be at hand, take up a corner of the desktop and understand folders the way they are laid out.",
+  "built": [
+    "A desktop widget: translucent glass with adjustable transparency; it stays put when you press show desktop (Win+D) and remembers its position.",
+    "A library from your folders: a folder is a playlist, subfolders are albums, covers come from a cover.jpg file or the tags, and search covers all music.",
+    "Playlists, Favorites, a queue (drag to reorder, play next), shuffle, repeat.",
+    "Its own audio engine: mp3, flac (up to 96 kHz / 24 bit), m4a/aac, ogg, wav, aiff.",
+    "Windows integration: media keys, the system volume overlay, a tray icon, autostart, and Open with Carina plays the whole folder from the chosen track."
+  ],
+  "shots_title": "Screens",
+  "shots": [
+    {
+      "tall": false,
+      "caption": "The installer.",
+      "src": "/work/windows-audio-player/02.webp",
+      "w": 1280,
+      "h": 720,
+      "alt": "The installer."
+    },
+    {
+      "tall": false,
+      "caption": "The track list. The interface text on the screen is in Russian.",
+      "src": "/work/windows-audio-player/03.webp",
+      "w": 1040,
+      "h": 1000,
+      "alt": "The track list. The interface text on the screen is in Russian."
+    },
+    {
+      "tall": false,
+      "caption": "Albums built from folders. The interface text on the screen is in Russian.",
+      "src": "/work/windows-audio-player/04.webp",
+      "w": 1040,
+      "h": 880,
+      "alt": "Albums built from folders. The interface text on the screen is in Russian."
+    },
+    {
+      "tall": false,
+      "caption": "Playlists. The interface text on the screen is in Russian.",
+      "src": "/work/windows-audio-player/05.webp",
+      "w": 1040,
+      "h": 1240,
+      "alt": "Playlists. The interface text on the screen is in Russian."
+    },
+    {
+      "tall": false,
+      "caption": "The widget on the desktop. The interface text on the screen is in Russian.",
+      "src": "/work/windows-audio-player/06.webp",
+      "w": 1600,
+      "h": 1067,
+      "alt": "The widget on the desktop. The interface text on the screen is in Russian."
+    }
+  ],
+  "steps": [
+    "Point the player at your music folders.",
+    "Folders become playlists and albums.",
+    "The widget stays in the corner; the music panel opens from it.",
+    "Media keys, tray and autostart work like a native app."
+  ],
+  "stack": [
+    "Tauri 2",
+    "Rust",
+    "SvelteKit",
+    "TypeScript"
+  ],
+  "offer": [
+    "Adapting the player to you: look, colors, names, the buttons and features you need.",
+    "Or a new app in a similar style (widget plus panel) built around your task.",
+    "A small installer (about 2 MB) that needs no administrator rights."
+  ],
+  "not_included": "",
+  "price_en": "Price: on request, after a short brief"
+}
