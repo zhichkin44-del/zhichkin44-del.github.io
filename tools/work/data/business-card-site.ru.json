@@ -30,14 +30,6 @@
   "shots": [
     {
       "tall": false,
-      "caption": "Раздел с резюме.",
-      "src": "/work/business-card-site/02.webp",
-      "w": 1280,
-      "h": 720,
-      "alt": "Раздел с резюме."
-    },
-    {
-      "tall": false,
       "caption": "Раздел «Как я работаю».",
       "src": "/work/business-card-site/03.webp",
       "w": 1280,

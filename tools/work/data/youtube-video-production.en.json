@@ -5,7 +5,7 @@
   ],
   "order": 22,
   "thumb": {
-    "src": "/work/youtube-video-production/01.webp",
+    "src": "/work/youtube-video-production/02.webp",
     "alt": "A YouTube video from script to Shorts"
   },
   "title": "A YouTube video from script to Shorts",
@@ -13,11 +13,11 @@
   "category": "Video & audio",
   "hero": {
     "tall": false,
-    "caption": "Project cover.",
-    "src": "/work/youtube-video-production/01.webp",
-    "w": 1320,
-    "h": 880,
-    "alt": "Project cover."
+    "caption": "Production stages.",
+    "src": "/work/youtube-video-production/02.webp",
+    "w": 1280,
+    "h": 720,
+    "alt": "Production stages."
   },
   "problem": "The client needed to release a video every week and several Shorts, but the script, voiceover, editing and thumbnails took all the time, and the channel came out irregularly.",
   "built": [
@@ -29,14 +29,6 @@
   ],
   "shots_title": "Screens",
   "shots": [
-    {
-      "tall": false,
-      "caption": "Production stages.",
-      "src": "/work/youtube-video-production/02.webp",
-      "w": 1280,
-      "h": 720,
-      "alt": "Production stages."
-    },
     {
       "tall": false,
       "caption": "Frames from the finished video.",

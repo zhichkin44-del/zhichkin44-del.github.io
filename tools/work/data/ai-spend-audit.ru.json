@@ -62,7 +62,7 @@
   "stack": [
     "TypeScript",
     "Node.js",
-    "A local database"
+    "SQLite"
   ],
   "offer": [
     "Разбор ваших журналов: отчёт и список рекомендаций."

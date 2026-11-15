@@ -5,7 +5,7 @@
   ],
   "order": 23,
   "thumb": {
-    "src": "/work/youtube-upload-pack/01.webp",
+    "src": "/work/youtube-upload-pack/02.webp",
     "alt": "YouTube upload pack: titles, chapters, tags and thumbnails"
   },
   "title": "YouTube upload pack: titles, chapters, tags and thumbnails",
@@ -13,11 +13,11 @@
   "category": "Video & audio",
   "hero": {
     "tall": false,
-    "caption": "Project cover.",
-    "src": "/work/youtube-upload-pack/01.webp",
-    "w": 1320,
-    "h": 880,
-    "alt": "Project cover."
+    "caption": "The pack: titles, chapters, description, tags.",
+    "src": "/work/youtube-upload-pack/02.webp",
+    "w": 1280,
+    "h": 720,
+    "alt": "The pack: titles, chapters, description, tags."
   },
   "problem": "The video is ready, but the upload stalls: you need a title, chapters by timecode, a description, tags and a thumbnail.",
   "built": [
@@ -29,14 +29,6 @@
   ],
   "shots_title": "Screens",
   "shots": [
-    {
-      "tall": false,
-      "caption": "The pack: titles, chapters, description, tags.",
-      "src": "/work/youtube-upload-pack/02.webp",
-      "w": 1280,
-      "h": 720,
-      "alt": "The pack: titles, chapters, description, tags."
-    },
     {
       "tall": false,
       "caption": "Three thumbnail variants.",

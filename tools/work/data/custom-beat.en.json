@@ -5,7 +5,7 @@
   ],
   "order": 25,
   "thumb": {
-    "src": "/work/custom-beat/01.webp",
+    "src": "/work/custom-beat/02.webp",
     "alt": "A custom beat with a release-ready file set"
   },
   "title": "A custom beat with a release-ready file set",
@@ -13,11 +13,11 @@
   "category": "Video & audio",
   "hero": {
     "tall": false,
-    "caption": "Project cover.",
-    "src": "/work/custom-beat/01.webp",
-    "w": 1320,
-    "h": 880,
-    "alt": "Project cover."
+    "caption": "The grid check report.",
+    "src": "/work/custom-beat/02.webp",
+    "w": 1280,
+    "h": 720,
+    "alt": "The grid check report."
   },
   "problem": "An artist needs a beat in their own mood rather than one from a catalogue, with nothing to complain about in the sound: steady rhythm, right loudness, cover and details in place.",
   "built": [
@@ -28,14 +28,6 @@
   ],
   "shots_title": "Screens",
   "shots": [
-    {
-      "tall": false,
-      "caption": "The grid check report.",
-      "src": "/work/custom-beat/02.webp",
-      "w": 1280,
-      "h": 720,
-      "alt": "The grid check report."
-    },
     {
       "tall": false,
       "caption": "The loudness check report.",

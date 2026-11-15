@@ -5,7 +5,7 @@
   ],
   "order": 13,
   "thumb": {
-    "src": "/work/two-language-site/01.webp",
+    "src": "/work/two-language-site/03.webp",
     "alt": "Fast two-language website with a catalogue of work"
   },
   "title": "Fast two-language website with a catalogue of work",
@@ -13,11 +13,11 @@
   "category": "Websites",
   "hero": {
     "tall": false,
-    "caption": "Project cover.",
-    "src": "/work/two-language-site/01.webp",
-    "w": 1320,
-    "h": 880,
-    "alt": "Project cover."
+    "caption": "The catalogue.",
+    "src": "/work/two-language-site/03.webp",
+    "w": 1280,
+    "h": 720,
+    "alt": "The catalogue."
   },
   "problem": "Make it clear within a minute what the author does and what has been done. Pages should open fast, read well on a phone and in two languages, and a new item should be addable without rebuilding the site.",
   "built": [
@@ -29,14 +29,6 @@
   ],
   "shots_title": "Screens",
   "shots": [
-    {
-      "tall": false,
-      "caption": "The catalogue.",
-      "src": "/work/two-language-site/03.webp",
-      "w": 1280,
-      "h": 720,
-      "alt": "The catalogue."
-    },
     {
       "tall": false,
       "caption": "A project page.",

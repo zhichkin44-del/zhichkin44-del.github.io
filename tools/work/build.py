@@ -42,7 +42,7 @@ L = {
                    'тестировщик, редактор или «заказчик», который придирается как вы.',
                    'Работа не уходит к вам, пока проверяющий не сказал «готово»: тесты, обход всех экранов, сверка с задачей.',
                    'Внимание — на задаче и качестве, а не на синтаксисе. Поэтому быстрее и с меньшим числом переделок.'],
-        'method_proof': 'Так сделаны все работы ниже: 542 изменения (PR) с 23 октября по 15 ноября 2026 года в 15 репозиториях.',
+        'method_proof': '542 изменения (PR) во всех моих репозиториях с 23 октября по 15 ноября 2026 года (поиск GitHub, 15 репозиториев).',
     },
     'en': {
         'shell': 'en/projects/carina/index.html', 'base': '/en/work/', 'other': '/work/',
@@ -67,7 +67,7 @@ L = {
                    'a tester, an editor, or a "client" who is as picky as you are.',
                    'Nothing reaches you until the checker says "done": tests, a pass through every screen, a check against the task.',
                    'My attention goes to the task and the quality, not the syntax. That makes it faster, with fewer rounds of fixes.'],
-        'method_proof': 'Every project below was built this way: 542 pull requests from 23 October to 15 November 2026 across 15 repositories.',
+        'method_proof': '542 pull requests across all my repositories from 23 October to 15 November 2026 (GitHub search, 15 repositories).',
     },
 }
 
@@ -125,6 +125,7 @@ def shell(lang, title, desc, path, other_path):
     head = re.sub(r'<meta property="og:url" content="[^"]*">', f'<meta property="og:url" content="{url}">', head)
     head = re.sub(r'(<a class="tool" href=")[^"]*(" hreflang=)', r'\g<1>' + other_path + r'\g<2>', head)
     head = head.replace('</head>', '<link rel="stylesheet" href="/work/work.css"></head>', 1)
+    head = head.replace('data-mode="corner"', 'data-mode="hero"')
     # one menu: the work link of each language points to its own language
     head = head.replace('<li><a href="/work/">Freelance work</a></li>', '<li><a href="/en/work/">Freelance work</a></li>')
     for a in ('href="/work/"', 'href="/en/work/"'):
@@ -132,8 +133,9 @@ def shell(lang, title, desc, path, other_path):
     tail = re.sub(r' · (Версия|Version) [0-9.]+', '', tail)
     proj = '/projects/' if lang == 'ru' else '/en/projects/'
     pl = 'Проекты' if lang == 'ru' else 'Projects'
-    tail = tail.replace(f'<li><a href="{proj}">{pl}</a></li>',
-                        f'<li><a href="{proj}">{pl}</a></li><li><a href="{L[lang]["base"]}">{L[lang]["skip_footer_work"]}</a></li>', 1)
+    if f'href="{L[lang]["base"]}"' not in tail:
+        tail = tail.replace(f'<li><a href="{proj}">{pl}</a></li>',
+                            f'<li><a href="{proj}">{pl}</a></li><li><a href="{L[lang]["base"]}">{L[lang]["skip_footer_work"]}</a></li>', 1)
     return head, tail
 
 
@@ -257,7 +259,7 @@ def patch_site():
         pl = 'Проекты' if lang == 'ru' else 'Projects'
         wl = f'<li><a href="{L[lang]["base"]}">{L[lang]["skip_footer_work"]}</a></li>'
         foot = t.find('<footer')
-        if foot > -1 and wl not in t[foot:]:
+        if foot > -1 and f'href="{L[lang]["base"]}"' not in t[foot:]:
             t = t[:foot] + t[foot:].replace(f'<li><a href="{proj}">{pl}</a></li>', f'<li><a href="{proj}">{pl}</a></li>' + wl, 1)
         if t != t0:
             f.write_text(t, encoding='utf-8', newline='')

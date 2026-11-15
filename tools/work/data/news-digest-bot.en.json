@@ -6,7 +6,7 @@
   ],
   "order": 8,
   "thumb": {
-    "src": "/work/news-digest-bot/01.webp",
+    "src": "/work/news-digest-bot/02.webp",
     "alt": "A Telegram channel that posts its own news digest"
   },
   "title": "A Telegram channel that posts its own news digest",
@@ -14,15 +14,15 @@
   "category": "Bots / Automation",
   "hero": {
     "tall": false,
-    "caption": "Project cover.",
-    "src": "/work/news-digest-bot/01.webp",
-    "w": 1320,
-    "h": 880,
-    "alt": "Project cover."
+    "caption": "A post card. The text is in Russian.",
+    "src": "/work/news-digest-bot/02.webp",
+    "w": 1280,
+    "h": 800,
+    "alt": "A post card. The text is in Russian."
   },
   "problem": "Finding the main stories among hundreds of feeds and posting on time, without manual routine.",
   "built": [
-    "98 sources in the test setup (92 feeds and 6 trend signals), polled every 2 minutes.",
+    "98 sources (92 feeds and 6 trend signals), polled every 2 minutes.",
     "Merging of stories about one event; an importance score up to 100; a top of the day capped at seven.",
     "Pre-publish checks: up to 1,024 characters, no links, no stop-words.",
     "A 1080x1350 card, or a licensed Wikimedia Commons photo.",
@@ -30,14 +30,6 @@
   ],
   "shots_title": "Screens",
   "shots": [
-    {
-      "tall": false,
-      "caption": "A post card. The text is in Russian.",
-      "src": "/work/news-digest-bot/02.webp",
-      "w": 1280,
-      "h": 800,
-      "alt": "A post card. The text is in Russian."
-    },
     {
       "tall": false,
       "caption": "The channel view, following the bot's format. Russian text.",

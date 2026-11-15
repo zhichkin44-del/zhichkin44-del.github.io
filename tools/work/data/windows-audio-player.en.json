@@ -6,7 +6,7 @@
   ],
   "order": 10,
   "thumb": {
-    "src": "/work/windows-audio-player/01.webp",
+    "src": "/work/windows-audio-player/02.webp",
     "alt": "Windows audio player: a glass desktop widget"
   },
   "title": "Windows audio player: a glass desktop widget",
@@ -14,11 +14,11 @@
   "category": "Apps / Video & audio",
   "hero": {
     "tall": false,
-    "caption": "Project cover.",
-    "src": "/work/windows-audio-player/01.webp",
+    "caption": "The installer.",
+    "src": "/work/windows-audio-player/02.webp",
     "w": 1280,
     "h": 720,
-    "alt": "Project cover."
+    "alt": "The installer."
   },
   "problem": "Music lives in folders on a computer. Big players are heavy and cover half the screen, and a browser tab gets lost or gets in the way. A player should always be at hand, take up a corner of the desktop and understand folders the way they are laid out.",
   "built": [
@@ -30,14 +30,6 @@
   ],
   "shots_title": "Screens",
   "shots": [
-    {
-      "tall": false,
-      "caption": "The installer.",
-      "src": "/work/windows-audio-player/02.webp",
-      "w": 1280,
-      "h": 720,
-      "alt": "The installer."
-    },
     {
       "tall": false,
       "caption": "The track list. The interface text on the screen is in Russian.",

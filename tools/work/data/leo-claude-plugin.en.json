@@ -24,8 +24,7 @@
     "A SessionStart hook (on compact and resume) puts a summary back into context: working windows, decisions waiting for the owner, the day's rules.",
     "A Stop hook runs Claude Haiku as a skeptic on final answers. It looks for unverified claims and missed promises; a serious finding blocks the answer with a reason.",
     "The Haiku call is isolated: no tools, a single turn, a timeout.",
-    "New rules from the owner's messages are never written automatically: the plugin only prompts the lead, and the decision stays with the owner. No trigger words are hard-coded.",
-    "Changes from the skeptic's own review are included."
+    "New rules from the owner's messages are never written automatically: the plugin only prompts the lead, and the decision stays with the owner."
   ],
   "shots_title": "Test run",
   "shots": [

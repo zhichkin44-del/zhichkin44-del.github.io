@@ -5,7 +5,7 @@
   ],
   "order": 14,
   "thumb": {
-    "src": "/work/business-card-site/01.webp",
+    "src": "/work/business-card-site/02.webp",
     "alt": "Business-card website in Russian and English"
   },
   "title": "Business-card website in Russian and English",
@@ -13,11 +13,11 @@
   "category": "Websites",
   "hero": {
     "tall": false,
-    "caption": "Project cover.",
-    "src": "/work/business-card-site/01.webp",
-    "w": 1320,
-    "h": 880,
-    "alt": "Project cover."
+    "caption": "The resume section.",
+    "src": "/work/business-card-site/02.webp",
+    "w": 1280,
+    "h": 720,
+    "alt": "The resume section."
   },
   "problem": "A person who arrives from a job reply or a social network should understand within a minute who you are, how you help and how to write to you, on a phone too.",
   "built": [
@@ -28,14 +28,6 @@
   ],
   "shots_title": "Screens",
   "shots": [
-    {
-      "tall": false,
-      "caption": "The resume section.",
-      "src": "/work/business-card-site/02.webp",
-      "w": 1280,
-      "h": 720,
-      "alt": "The resume section."
-    },
     {
       "tall": false,
       "caption": "The how-I-work section.",
