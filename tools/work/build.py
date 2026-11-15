@@ -202,6 +202,8 @@ def shot_html(s, lang, eager=False):
             f'height="{s["h"]}" {load} decoding="async"></a>{cap}</figure>')
 
 
+NI_DEFAULT = {"ru": "Хостинг, домен и оплата сторонних сервисов.", "en": "Hosting, domain and third-party service fees."}
+
 def detail_page(lang, d, nxt):
     c = L[lang]
     base = c['base']
@@ -234,7 +236,7 @@ def detail_page(lang, d, nxt):
     p.append(f'<section class="wrap block" aria-labelledby="offer-title"><h2 id="offer-title">{c["offer"]}</h2><div class="cta2">'
              f'<div class="glass"><ul class="wk-points">{"".join(f"<li>{e(x)}</li>" for x in d["offer"])}</ul>'
              f'<p class="wk-price-line">{c["price_line"]}: <b>{e(price(d, lang))}</b></p></div>'
-             f'<div class="glass"><h3>{c["not"]}</h3><p>{e(d["not_included"])}</p>'
+             f'<div class="glass"><h3>{c["not"]}</h3><p>{e(d.get("not_included", "").strip() or NI_DEFAULT[lang])}</p>'
              f'<a class="btn" href="{TG}" rel="noopener">{e(c["cta_btn"])}</a></div></div></section>')
     p.append(f'<nav class="wrap next-project" aria-label="{c["next"]}"><a href="{base}{nxt["slug"]}/"><small>{c["next"]}</small>'
              f'<b>{e(nxt["title"])}</b><span>{e(nxt["lead"])}</span></a></nav>')
