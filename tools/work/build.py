@@ -143,7 +143,8 @@ def thumb(d, lang):
     t = d['thumb']
     if 'src' in t:
         w, h = webp_size(ROOT / t['src'].lstrip('/'))
-        return (f'<span class="wk-card__thumb"><img src="{e(t["src"])}" alt="" width="{w}" height="{h}" '
+        wide = ' wk-card__thumb--wide' if w > 2 * h else ''
+        return (f'<span class="wk-card__thumb{wide}"><img src="{e(t["src"])}" alt="" width="{w}" height="{h}" '
                 f'loading="lazy" decoding="async"></span>')
     return f'<span class="wk-card__thumb wk-card__thumb--text" aria-hidden="true"><span>{e(t["text"])}</span></span>'
 

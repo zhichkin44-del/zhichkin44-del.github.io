@@ -53,3 +53,5 @@
 /* readable over the bright ring (round 17) */
 .p-hero .crumbs,.p-hero h1,.p-hero__line,.p-hero__badge{text-shadow:0 2px 24px #000000e6,0 0 3px #000c}
 .p-hero .crumbs{color:var(--muted)}.p-hero .crumbs a{color:var(--ink)}
+.wk-card__thumb--wide img{object-fit:contain;object-position:center}
+.p-hero .crumbs{display:inline-block;max-width:100%;padding:5px 12px;border-radius:12px;background:#030303b8;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-shadow:none}
