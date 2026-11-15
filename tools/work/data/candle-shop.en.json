@@ -13,11 +13,11 @@
   "category": "Websites",
   "hero": {
     "tall": false,
-    "caption": "First screen (desktop).",
+    "caption": "Hearthwick home page: hand-poured candles with Shop candles and Gift set buttons.",
     "src": "/work/candle-shop/01.webp",
     "w": 1280,
     "h": 800,
-    "alt": "First screen (desktop)."
+    "alt": "Hearthwick home page: hand-poured candles with Shop candles and Gift set buttons."
   },
   "problem": "A small brand of handmade candles needs a mini shop: a catalogue, a product page and a cart with an order form.",
   "built": [
@@ -31,11 +31,11 @@
   "shots": [
     {
       "tall": true,
-      "caption": "First screen on a phone.",
+      "caption": "The same Hearthwick home page on a phone.",
       "src": "/work/candle-shop/04.webp",
       "w": 375,
       "h": 812,
-      "alt": "First screen on a phone."
+      "alt": "The same Hearthwick home page on a phone."
     }
   ],
   "steps": [

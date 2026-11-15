@@ -23,7 +23,7 @@
   "built": [
     "A beat at 130 BPM, D# minor, 1:30; files: WAV, MP3, MIDI notes.",
     "Grid checked part by part: kick 105 hits, max offset 1.8 ms against a 10 ms tolerance; clap 35 hits, 0 ms; hi-hat 192 hits, 0.3 ms.",
-    "Loudness -10.01 LUFS, true peak -2.0 dBTP; after lossy compression (Opus, 160 kbps) the peak is -0.49 dBFS, no clipping.",
+    "Loudness -10.01 LUFS (the unit platforms use to level tracks) with a true peak of -2.0 dBTP (the highest real peak, kept below zero so the track does not distort); after Opus 160 kbps compression the peak is -0.49 dBFS, still no clipping.",
     "A distributor folder: 3000x3000 cover, track details (tempo, key, length)."
   ],
   "shots_title": "Screens",

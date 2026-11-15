@@ -39,11 +39,11 @@
     },
     {
       "tall": false,
-      "caption": "Loudness of the finished track: −10.0 LUFS against a −10 target; the voice alone was −27.4 LUFS.",
+      "caption": "Loudness of the finished track: −10.0 LUFS against a −10 target (LUFS is the loudness unit platforms use to level tracks); the voice alone was −27.4 LUFS.",
       "src": "/work/vocal-mixing-mastering/04.webp",
       "w": 1280,
       "h": 720,
-      "alt": "Loudness of the finished track: −10.0 LUFS against a −10 target; the voice alone was −27.4 LUFS."
+      "alt": "Loudness of the finished track: −10.0 LUFS against a −10 target (LUFS is the loudness unit platforms use to level tracks); the voice alone was −27.4 LUFS."
     }
   ],
   "steps": [
