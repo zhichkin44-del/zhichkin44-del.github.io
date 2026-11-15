@@ -25,7 +25,7 @@
     "A task script: first-week and second-week tasks, with videos and answers received in the chat.",
     "An ffmpeg edit: vertical format, an 18-second clip at about -14 LUFS.",
     "Post texts for each platform, and a quality check of the clip before it is sent.",
-    "Telegram dialog layouts for stage 3, and protection against an old bot instance: webhook reset and 409 handled without a crash."
+    "Telegram dialog layouts for stage 3, and protection against an old bot instance: the bot keeps running even if an earlier version of it is still live somewhere."
   ],
   "shots_title": "Test run",
   "shots": [
