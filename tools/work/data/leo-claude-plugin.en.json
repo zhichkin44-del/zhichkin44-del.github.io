@@ -9,7 +9,7 @@
     "alt": "A Claude Code plugin that remembers decisions and checks the final answer"
   },
   "title": "A Claude Code plugin that remembers decisions and checks the final answer",
-  "lead": "Restores decisions and promises after context compaction, and has a second model act as a skeptic before the final report.",
+  "lead": "When a long session gets shortened, it brings back the owner's decisions and promises; before the final report, a second model checks the answer.",
   "category": "Automation",
   "hero": {
     "tall": false,
@@ -38,7 +38,7 @@
     "Node.js (ESM)",
     "Claude Code hooks",
     "Claude Haiku",
-    "node:test"
+    "Node.js built-in tests"
   ],
   "offer": [
     "A Claude Code plugin with the two hooks, set up for your workflow.",

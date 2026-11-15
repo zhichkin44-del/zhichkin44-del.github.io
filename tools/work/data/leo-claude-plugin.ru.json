@@ -38,7 +38,7 @@
     "Node.js (ESM)",
     "Claude Code hooks",
     "Claude Haiku",
-    "node:test"
+    "Встроенные тесты Node.js"
   ],
   "offer": [
     "Плагин Claude Code под ваш рабочий процесс: память решений и проверка ответов второй моделью.",
