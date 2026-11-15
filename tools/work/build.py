@@ -235,7 +235,7 @@ def detail_page(lang, d, nxt):
                  + '</section>')
     p.append(f'<section class="wrap block" aria-labelledby="offer-title"><h2 id="offer-title">{c["offer"]}</h2><div class="cta2">'
              f'<div class="glass"><ul class="wk-points">{"".join(f"<li>{e(x)}</li>" for x in d["offer"])}</ul>'
-             f'<p class="wk-price-line">{c["price_line"]}: <b>{e(price(d, lang).replace("По брифу", "по брифу"))}</b></p></div>'
+             f'<p class="wk-price-line">{c["price_line"]}: <b>{e((lambda s: s[:1].lower() + s[1:] if lang == "ru" else s)(price(d, lang)))}</b></p></div>'
              f'<div class="glass"><h3>{c["not"]}</h3><p>{e(d.get("not_included", "").strip() or NI_DEFAULT[lang])}</p>'
              f'<a class="btn" href="{TG}" rel="noopener">{e(c["cta_btn"])}</a></div></div></section>')
     p.append(f'<nav class="wrap next-project" aria-label="{c["next"]}"><a href="{base}{nxt["slug"]}/"><small>{c["next"]}</small>'
