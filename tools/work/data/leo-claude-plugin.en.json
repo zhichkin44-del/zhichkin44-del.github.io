@@ -45,5 +45,5 @@
     "Tests for hook behaviour, safe failures and timeouts."
   ],
   "not_included": "Support for other assistants; a promised quality gain in percent.",
-  "price_en": "Price: on request, after a short brief"
+  "price_en": "On request, after a short brief"
 }

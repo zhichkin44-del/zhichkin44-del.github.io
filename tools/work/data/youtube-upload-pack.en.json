@@ -22,7 +22,7 @@
   "problem": "The video is ready, but the upload stalls: you need a title, chapters by timecode, a description, tags and a thumbnail.",
   "built": [
     "Three title options to choose from.",
-    "A description with chapters by timecode: 11 chapters in the sample.",
+    "A description with chapters by timecode: 11 chapters in this video.",
     "A list of sources under the description.",
     "Tags and upload settings: category, language, end screen, playlist.",
     "Three thumbnail variants with different looks: pick one or test them on your audience."
@@ -61,5 +61,5 @@
     "Text revisions; the number is in the service package."
   ],
   "not_included": "Uploading and publishing to the channel; Any promise of views or subscribers.",
-  "price_en": "Price: on request, after a short brief"
+  "price_en": "On request, after a short brief"
 }
