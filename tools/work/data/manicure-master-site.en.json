@@ -30,6 +30,22 @@
   "shots_title": "Screens",
   "shots": [
     {
+      "tall": false,
+      "caption": "Portfolio: the master's work, each set with its design name and nail shape.",
+      "src": "/work/manicure-master-site/04.webp",
+      "w": 1280,
+      "h": 1070,
+      "alt": "Portfolio: the master's work, each set with its design name and nail shape."
+    },
+    {
+      "tall": false,
+      "caption": "Client reviews: four short notes with stars.",
+      "src": "/work/manicure-master-site/05.webp",
+      "w": 1280,
+      "h": 930,
+      "alt": "Client reviews: four short notes with stars."
+    },
+    {
       "tall": true,
       "caption": "On a phone: hours, the address, prices from $12, and the start of the price list.",
       "src": "/work/manicure-master-site/03.webp",

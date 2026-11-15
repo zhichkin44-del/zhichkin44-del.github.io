@@ -49,3 +49,7 @@
 /* Long Russian words in case titles wrap on phones instead of widening the page */
 .p-hero h1{hyphens:auto;-webkit-hyphens:auto;overflow-wrap:anywhere}
 .p-hero__text{min-width:0}
+
+/* readable over the bright ring (round 17) */
+.p-hero .crumbs,.p-hero h1,.p-hero__line,.p-hero__badge{text-shadow:0 2px 24px #000000e6,0 0 3px #000c}
+.p-hero .crumbs{color:var(--muted)}.p-hero .crumbs a{color:var(--ink)}
