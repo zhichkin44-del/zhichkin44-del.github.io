@@ -1,0 +1,84 @@
+{
+  "slug": "laptop-alarm",
+  "cats": [
+    "Apps"
+  ],
+  "order": 12,
+  "thumb": {
+    "src": "/work/laptop-alarm/01.webp",
+    "alt": "Signalka: laptop guard, alarm on your phone"
+  },
+  "title": "Signalka: laptop guard with a sound detector",
+  "lead": "Laptop security by PIN: if someone unplugs the charger or inserts a USB stick, there are 10 seconds for the PIN, then a siren and a message to your phone. No account needed.",
+  "category": "Apps",
+  "hero": {
+    "tall": false,
+    "caption": "Laptop touched: the alarm comes to your phone as a message.",
+    "src": "/work/laptop-alarm/01.webp",
+    "w": 1320,
+    "h": 880,
+    "alt": "Laptop touched: the alarm comes to your phone as a message."
+  },
+  "problem": "A laptop is left unattended in a coworking space, an office or a hotel. You need to know at once if someone touches it, without cameras, a subscription or a cloud service.",
+  "built": [
+    "Laptop guard: after arming you have 30 seconds to walk away; if the power cable is unplugged or a USB device is inserted, you have 10 seconds for the PIN, then a loud siren.",
+    "The PIN itself is never stored, only a one-way fingerprint of it (scrypt) that cannot be turned back into the PIN; 5 wrong tries lock PIN entry for 30 seconds, and the lock survives a restart.",
+    "An icon in the Windows notification area with a menu and a PIN box, an event log, and a phone message through ntfy, a free phone notification app (if you turn it on).",
+    "26 automated tests of the guard pass with no external services.",
+    "Sound detector (the next module): notices a sound louder than the background, a dead or covered microphone, an attempt to jam it with noise, and ignores its own siren. 13 more tests on recorded sounds pass.",
+    "Next: a siren on sound in the room, a \"Signalka is online\" check, its own cellular modem, a microphone array for sound direction."
+  ],
+  "shots_title": "Screens",
+  "shots": [
+    {
+      "tall": false,
+      "caption": "How it works: arm, someone touches it, 10 seconds for the PIN, alarm.",
+      "src": "/work/laptop-alarm/02.webp",
+      "w": 1600,
+      "h": 900,
+      "alt": "How it works: arm, someone touches it, 10 seconds for the PIN, alarm."
+    },
+    {
+      "tall": false,
+      "caption": "Event log: the charger unplugged and the PIN entered in time; a USB stick inserted without the PIN, alarm.",
+      "src": "/work/laptop-alarm/03.webp",
+      "w": 1600,
+      "h": 1000,
+      "alt": "Event log: the charger unplugged and the PIN entered in time; a USB stick inserted without the PIN, alarm."
+    },
+    {
+      "tall": false,
+      "caption": "The app sits in the Windows notification area next to the clock: an icon menu and a small PIN box.",
+      "src": "/work/laptop-alarm/04.webp",
+      "w": 1280,
+      "h": 720,
+      "alt": "The app sits in the Windows notification area next to the clock: an icon menu and a small PIN box."
+    },
+    {
+      "tall": true,
+      "caption": "The alarm message on a phone, if you turned alerts on.",
+      "src": "/work/laptop-alarm/05.webp",
+      "w": 750,
+      "h": 1624,
+      "alt": "The alarm message on a phone, if you turned alerts on."
+    }
+  ],
+  "steps": [
+    "Arm it: enter the PIN, then 30 seconds to walk away.",
+    "Someone unplugs the charger or inserts a USB stick.",
+    "10 seconds for the PIN: if it is you, nothing happens.",
+    "Otherwise a siren, a log entry and a message to your phone."
+  ],
+  "stack": [
+    "Node.js (no third-party libraries)",
+    "PowerShell",
+    "ntfy",
+    "Node.js built-in tests"
+  ],
+  "offer": [
+    "Setting it up on your laptop: PIN, phone alerts, autostart.",
+    "Adapting it to you: your own sensors and delays, a settings window, an installer."
+  ],
+  "not_included": "A guarantee against theft.",
+  "price_en": "Starting at $65"
+}

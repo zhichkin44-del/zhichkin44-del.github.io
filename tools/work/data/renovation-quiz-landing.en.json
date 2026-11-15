@@ -1,0 +1,65 @@
+{
+  "slug": "renovation-quiz-landing",
+  "cats": [
+    "Websites"
+  ],
+  "order": 17,
+  "thumb": {
+    "src": "/work/renovation-quiz-landing/01.webp",
+    "alt": "Quiz landing for home renovation"
+  },
+  "title": "Quiz landing for home renovation",
+  "lead": "A five-step quiz that ends with an approximate price and a quote form, to turn ad clicks into leads.",
+  "category": "Websites",
+  "hero": {
+    "tall": false,
+    "caption": "Northline Renovation: a 5-question quiz that prices the renovation on screen, with a running summary and a 2-year warranty.",
+    "src": "/work/renovation-quiz-landing/01.webp",
+    "w": 1280,
+    "h": 1500,
+    "alt": "Northline Renovation: a 5-question quiz that prices the renovation on screen, with a running summary and a 2-year warranty."
+  },
+  "problem": "A renovation crew needs a 5-step quiz (property type, area, type of work, timing, budget), an approximate price at the end and a get-a-quote form, plus blocks for the warranty, the four stages of work and finished projects.",
+  "built": [
+    "Five screens with progress and a live summary panel (Your renovation).",
+    "A transparent estimate by formula (area × price per sq ft, plus or minus 10%).",
+    "A form that carries all the answers.",
+    "Blocks: a 2-year warranty, 4 stages of work, finished projects."
+  ],
+  "shots_title": "Screens",
+  "shots": [
+    {
+      "tall": false,
+      "caption": "Quiz, step 3 of 5: you tick the work you need (here plumbing and electrical), and the estimate on the right updates to $2,800–$3,500.",
+      "src": "/work/renovation-quiz-landing/02.webp",
+      "w": 1280,
+      "h": 1344,
+      "alt": "Quiz, step 3 of 5: you tick the work you need (here plumbing and electrical), and the estimate on the right updates to $2,800–$3,500."
+    },
+    {
+      "tall": true,
+      "caption": "The result on a phone.",
+      "src": "/work/renovation-quiz-landing/03.webp",
+      "w": 375,
+      "h": 800,
+      "alt": "The result on a phone."
+    }
+  ],
+  "steps": [
+    "The visitor answers five short questions.",
+    "A live summary shows what they have chosen.",
+    "An approximate price appears, with its formula.",
+    "A quote form carries all the answers to you."
+  ],
+  "stack": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "offer": [
+    "A quiz landing built around your own questions and price formula.",
+    "Leads sent to your Telegram, email or CRM."
+  ],
+  "not_included": "Hosting, domain and third-party service fees.",
+  "price_en": "Starting at $80"
+}

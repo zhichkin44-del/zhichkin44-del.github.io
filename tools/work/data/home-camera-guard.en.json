@@ -1,0 +1,69 @@
+{
+  "slug": "home-camera-guard",
+  "cats": [
+    "Apps",
+    "Automation"
+  ],
+  "order": 9,
+  "thumb": {
+    "src": "/work/home-camera-guard/02.webp",
+    "alt": "Home camera guard for Windows"
+  },
+  "title": "Home camera guard for Windows",
+  "lead": "Person detection on your own computer with alerts and recordings, and no cloud.",
+  "category": "Apps / Automation",
+  "hero": {
+    "tall": false,
+    "caption": "Diagram of how the pipeline works, drawn from the project code.",
+    "src": "/work/home-camera-guard/02.webp",
+    "w": 1600,
+    "h": 900,
+    "alt": "Diagram of how the pipeline works, drawn from the project code."
+  },
+  "problem": "People want a guard that runs at home, does not send video to the internet and does not wake them for nothing: shadows, cats and headlights.",
+  "built": [
+    "Capture from an ordinary camera; a recording keeps about 10 seconds before a person appears and up to a minute after they leave; recordings are kept for 14 days.",
+    "Person detection on your computer: the model is a plain file on disk and runs offline; with a graphics card a more accurate model can be switched on.",
+    "A judge against false alarms with five rules: a person in at least 3 of 5 frames in a row; uncertain detections dropped; tiny boxes ignored.",
+    "Messages: someone is home, is it you? (30 seconds to answer), then an alarm with a recording; an all-is-well message on a schedule; camera offline within a minute.",
+    "Arming and disarming with a PIN."
+  ],
+  "shots_title": "Screens",
+  "shots": [
+    {
+      "tall": false,
+      "caption": "The recognition rules of the false-alarm judge, drawn from the project code.",
+      "src": "/work/home-camera-guard/03.webp",
+      "w": 1600,
+      "h": 1000,
+      "alt": "The recognition rules of the false-alarm judge, drawn from the project code."
+    },
+    {
+      "tall": true,
+      "caption": "Messages on a phone.",
+      "src": "/work/home-camera-guard/05.webp",
+      "w": 750,
+      "h": 1624,
+      "alt": "Messages on a phone."
+    }
+  ],
+  "steps": [
+    "The camera watches a door or balcony.",
+    "The program on your laptop decides whether a person is in the frame.",
+    "The judge filters out shadows, light changes and still objects.",
+    "If it is a person, you get a message and the video is saved locally."
+  ],
+  "stack": [
+    "Node.js",
+    "ffmpeg",
+    "An open person-detection model (Apache-2.0)",
+    "onnxruntime"
+  ],
+  "offer": [
+    "Setup on your laptop with a camera: camera check, sensitivity, a test night run.",
+    "A control window and Telegram messages, built separately for you.",
+    "Condition: the laptop must stay awake and plugged in."
+  ],
+  "not_included": "Hosting, domain and third-party service fees.",
+  "price_en": "Pilot from $180"
+}

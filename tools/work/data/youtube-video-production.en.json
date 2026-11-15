@@ -1,0 +1,58 @@
+{
+  "slug": "youtube-video-production",
+  "cats": [
+    "Video & audio"
+  ],
+  "order": 22,
+  "thumb": {
+    "src": "/work/youtube-video-production/02.webp",
+    "alt": "A YouTube video from script to Shorts"
+  },
+  "title": "A YouTube video from script to Shorts",
+  "lead": "From one topic: an 8-11 minute video, vertical Shorts and thumbnails, with the checks done before handover.",
+  "category": "Video & audio",
+  "hero": {
+    "tall": false,
+    "caption": "Four stages of one video: a sourced script, the voiceover, a 346-shot edit and the upload files.",
+    "src": "/work/youtube-video-production/02.webp",
+    "w": 1280,
+    "h": 720,
+    "alt": "Four stages of one video: a sourced script, the voiceover, a 346-shot edit and the upload files."
+  },
+  "problem": "The client needed to release a video every week and several Shorts, but the script, voiceover, editing and thumbnails took all the time, and the channel came out irregularly.",
+  "built": [
+    "A script of 1,100-1,350 words with a list of facts and sources.",
+    "Voiceover in an even synthetic voice; the video description says so.",
+    "Editing in which the picture changes with the meaning of the speech: maps, portraits, objects, subtitles burned into the frame.",
+    "Loudness set to one level: -14.1 LUFS on the finished video (LUFS is the loudness unit platforms use to level tracks and videos).",
+    "Shorts: vertical 1080x1920 videos of 49-51 seconds, one file for YouTube and TikTok."
+  ],
+  "shots_title": "Screens",
+  "shots": [
+    {
+      "tall": false,
+      "caption": "Frames from the finished video: route map, courtroom, ship's pump; subtitles burned in.",
+      "src": "/work/youtube-video-production/03.webp",
+      "w": 1280,
+      "h": 720,
+      "alt": "Frames from the finished video: route map, courtroom, ship's pump; subtitles burned in."
+    }
+  ],
+  "steps": [
+    "You give a topic.",
+    "A script with facts and sources is written and voiced.",
+    "The video is edited to the meaning of the speech, then checked automatically.",
+    "You receive the video, Shorts, subtitles, thumbnails and upload text."
+  ],
+  "stack": [
+    "Python",
+    "HTML graphics"
+  ],
+  "offer": [
+    "A full 4K video, or a part of it: only Shorts, only voiceover and subtitles.",
+    "Upload files: the video, .srt subtitles, three thumbnails, a description with chapters and tags.",
+    "Two rounds of revisions for each part."
+  ],
+  "not_included": "Publishing on the channel; any promise of views, subscribers or monetization.",
+  "price_en": "On request, after a short brief"
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "vocal-mixing-mastering",
+  "cats": [
+    "Video & audio"
+  ],
+  "order": 26,
+  "thumb": {
+    "src": "/work/vocal-mixing-mastering/02.webp",
+    "alt": "Vocal mixing and mastering with a report"
+  },
+  "title": "Vocal mixing and mastering with a report",
+  "lead": "Your vocal and beat mixed into one track at streaming loudness, with a before and after report.",
+  "category": "Video & audio",
+  "hero": {
+    "tall": false,
+    "caption": "Before and after: the shape of the sound.",
+    "src": "/work/vocal-mixing-mastering/02.webp",
+    "w": 1280,
+    "h": 720,
+    "alt": "Before and after: the shape of the sound."
+  },
+  "problem": "The vocal was recorded at home: peaks on syllables, uneven loudness, sibilance on s, rumble. Together with the beat it sounds uneven and quiet.",
+  "built": [
+    "Syllable peaks reduced from 11 to 2 dB; loudness spread of the voice from 11 to 1 dB.",
+    "Sibilance from 42 to 5 dB.",
+    "Tone: rumble at 200-500 Hz from +11.9 to +7.6 dB, boxiness at 500-1000 Hz from +6.1 to +3.4 dB, clarity at 2-5 kHz from -3.5 to -1.8 dB.",
+    "The track with the voice brought to -10.0 LUFS (LUFS is the loudness unit platforms use to level tracks and videos); the voice alone was -27.4 LUFS.",
+    "A report and a beat-without-voice to finished-track waveform."
+  ],
+  "shots_title": "Screens",
+  "shots": [
+    {
+      "tall": false,
+      "caption": "What was done to the voice: syllable peaks, loudness spread and sibilance before and after, plus tone changes per band.",
+      "src": "/work/vocal-mixing-mastering/03.webp",
+      "w": 1280,
+      "h": 720,
+      "alt": "What was done to the voice: syllable peaks, loudness spread and sibilance before and after, plus tone changes per band."
+    },
+    {
+      "tall": false,
+      "caption": "Loudness of the finished track: −10.0 LUFS against a −10 target (LUFS is the loudness unit platforms use to level tracks); the voice alone was −27.4 LUFS. LRA 6.1 is the loudness range — how much quiet and loud parts differ.",
+      "src": "/work/vocal-mixing-mastering/04.webp",
+      "w": 1280,
+      "h": 720,
+      "alt": "Loudness of the finished track: −10.0 LUFS against a −10 target (LUFS is the loudness unit platforms use to level tracks); the voice alone was −27.4 LUFS. LRA 6.1 is the loudness range — how much quiet and loud parts differ."
+    }
+  ],
+  "steps": [
+    "You send your vocal and your beat.",
+    "The vocal is cleaned: peaks, loudness, sibilance, tone.",
+    "The mix is brought to streaming loudness and checked after compression.",
+    "You get the track and a before and after report."
+  ],
+  "stack": [
+    "Python",
+    "A browser-based app on my own computer (the software itself is not for sale)"
+  ],
+  "offer": [
+    "Mixing of your finished vocal (WAV, MP3, M4A or FLAC) with your beat.",
+    "Mastering to streaming loudness and a check after compression.",
+    "A free test fragment on your material before payment."
+  ],
+  "not_included": "Vocal recording and writing lyrics; the beat itself (a separate service); A guarantee against Content ID (YouTube's automatic copyright check).",
+  "price_en": "On request, after a short brief"
+}

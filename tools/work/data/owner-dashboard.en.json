@@ -1,0 +1,66 @@
+{
+  "slug": "owner-dashboard",
+  "cats": [
+    "Apps",
+    "Automation"
+  ],
+  "order": 3,
+  "thumb": {
+    "src": "/work/owner-dashboard/03.webp",
+    "alt": "Owner dashboard: projects, tasks and one-tap decisions"
+  },
+  "title": "Owner dashboard: projects, tasks and one-tap decisions",
+  "lead": "One screen for every project: what is moving, what is stuck and what waits for your decision.",
+  "category": "Apps / Automation",
+  "hero": {
+    "tall": false,
+    "caption": "Decisions screen: the list of what waits for the owner; the open card «Delivery calculation» shows now / if accepted, with Accept, Reject and Discuss buttons (interface in Russian).",
+    "src": "/work/owner-dashboard/03.webp",
+    "w": 1440,
+    "h": 900,
+    "alt": "Decisions screen: the list of what waits for the owner; the open card «Delivery calculation» shows now / if accepted, with Accept, Reject and Discuss buttons (interface in Russian)."
+  },
+  "problem": "Several projects, assistants on different computers, and ten windows to open to see where things stand. People want one place.",
+  "built": [
+    "A home screen showing what waits for the owner, answered with a button.",
+    "Projects, stages, tasks and statuses.",
+    "Handing out tasks to assistants on different computers.",
+    "A gate before hand-over: a stage counts as done only after its checks pass.",
+    "Spend tracking, a knowledge base and a project showcase in the same dashboard."
+  ],
+  "shots_title": "Screens",
+  "shots": [
+    {
+      "tall": false,
+      "caption": "Crew screen: assistant cards with the model (Haiku 5.5 / Sonnet 5.5), status and today's cost; on the right, which agents are working now (interface in Russian).",
+      "src": "/work/owner-dashboard/04.webp",
+      "w": 1440,
+      "h": 900,
+      "alt": "Crew screen: assistant cards with the model (Haiku 5.5 / Sonnet 5.5), status and today's cost; on the right, which agents are working now (interface in Russian)."
+    },
+    {
+      "tall": true,
+      "caption": "A project on a phone: the overview tab, a decision «Cart page ready for review» with an Accept button, and a bottom bar with a voice button (interface in Russian).",
+      "src": "/work/owner-dashboard/05.webp",
+      "w": 750,
+      "h": 1624,
+      "alt": "A project on a phone: the overview tab, a decision «Cart page ready for review» with an Accept button, and a bottom bar with a voice button (interface in Russian)."
+    }
+  ],
+  "steps": [
+    "Open one screen and see every project.",
+    "See what waits for your decision and answer with one button, also from a phone.",
+    "Hand out tasks to assistants on different computers.",
+    "A stage is closed only when its checks pass."
+  ],
+  "stack": [
+    "Node.js",
+    "Browser interface"
+  ],
+  "offer": [
+    "A similar dashboard for your team: projects, statuses, task hand-out, decision buttons.",
+    "Connecting your computers and assistants."
+  ],
+  "not_included": "A public link or a turnkey install; round-the-clock work with no human.",
+  "price_en": "On request, after a short brief"
+}

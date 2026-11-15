@@ -1,0 +1,59 @@
+{
+  "slug": "candle-shop",
+  "cats": [
+    "Websites"
+  ],
+  "order": 19,
+  "thumb": {
+    "src": "/work/candle-shop/01.webp",
+    "alt": "Mini online shop for a handmade candle brand"
+  },
+  "title": "Mini online shop for a handmade candle brand",
+  "lead": "A catalogue with filters and sorting, a cart with an automatic discount, and an order form.",
+  "category": "Websites",
+  "hero": {
+    "tall": false,
+    "caption": "Hearthwick home page: hand-poured candles with Shop candles and Gift set buttons.",
+    "src": "/work/candle-shop/01.webp",
+    "w": 1280,
+    "h": 800,
+    "alt": "Hearthwick home page: hand-poured candles with Shop candles and Gift set buttons."
+  },
+  "problem": "A small brand of handmade candles needs a mini shop: a catalogue, a product page and a cart with an order form.",
+  "built": [
+    "A catalogue with filters by type (glass, wax, sets) and sorting by price.",
+    "A product page with a scent choice and a quantity.",
+    "A cart where quantity can be changed and items removed, with the total always visible; the cart is remembered in the browser.",
+    "A 10% discount that switches on by itself once the order total reaches the threshold in the shop settings.",
+    "An order form (name, phone, address, comment) and a choice of delivery service."
+  ],
+  "shots_title": "Screens",
+  "shots": [
+    {
+      "tall": true,
+      "caption": "The same Hearthwick home page on a phone.",
+      "src": "/work/candle-shop/04.webp",
+      "w": 375,
+      "h": 812,
+      "alt": "The same Hearthwick home page on a phone."
+    }
+  ],
+  "steps": [
+    "Browse the catalogue and filter by type.",
+    "Open a product and pick a scent and a quantity.",
+    "The cart updates the total and applies the discount.",
+    "Fill in the order form and choose a delivery option."
+  ],
+  "stack": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "offer": [
+    "A mini shop built around your products and photos.",
+    "Orders arrive in your Telegram or email.",
+    "A phone check."
+  ],
+  "not_included": "Online payment.",
+  "price_en": "On request, after a short brief"
+}

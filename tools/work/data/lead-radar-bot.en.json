@@ -1,0 +1,60 @@
+{
+  "slug": "lead-radar-bot",
+  "cats": [
+    "Bots",
+    "Automation"
+  ],
+  "order": 7,
+  "thumb": {
+    "src": "/work/lead-radar-bot/01.webp",
+    "alt": "A morning shortlist of orders worth taking"
+  },
+  "title": "A morning shortlist of orders worth taking",
+  "lead": "Collects orders from open marketplaces, decides take or skip by seven rules, and sends a short morning summary to Telegram.",
+  "category": "Bots / Automation",
+  "hero": {
+    "tall": false,
+    "caption": "The morning summary in Telegram: 16 orders from 3 channels, one channel not responding (error 403), and for each order the platform, budget, reply count and age (in Russian).",
+    "src": "/work/lead-radar-bot/01.webp",
+    "w": 1280,
+    "h": 800,
+    "alt": "The morning summary in Telegram: 16 orders from 3 channels, one channel not responding (error 403), and for each order the platform, budget, reply count and age (in Russian)."
+  },
+  "problem": "Orders appear on a dozen platforms at once, with a lot of noise: job ads, reviews, filler. Good orders go within hours. The need was a short list instead of scrolling feeds.",
+  "built": [
+    "Collection without logging in to any account, one page at a time, with a 10-second pause.",
+    "The same order found on several platforms becomes one line.",
+    "7 selection rules: order vs job ad, kind of work, budget floor, number of replies, requests for access, deadline, diploma requirement.",
+    "A status line: how many were collected and which channels are silent and why.",
+    "If a platform adds protection or changes layout, the channel is reported silent, not hidden."
+  ],
+  "shots_title": "Screens",
+  "shots": [
+    {
+      "tall": false,
+      "caption": "Verdicts: each skip names the rule that caused it (in Russian).",
+      "src": "/work/lead-radar-bot/02.webp",
+      "w": 1280,
+      "h": 800,
+      "alt": "Verdicts: each skip names the rule that caused it (in Russian)."
+    }
+  ],
+  "steps": [
+    "The bot visits your chosen open sources on a polite schedule.",
+    "Duplicates of the same order are merged into one.",
+    "Seven plain rules mark each order take or skip, and every skip names its rule.",
+    "Every morning a short summary arrives in Telegram: only suitable orders, freshest first."
+  ],
+  "stack": [
+    "Node.js",
+    "Telegram Bot API"
+  ],
+  "offer": [
+    "Setup for your kinds of work and your budget floor.",
+    "Up to 5 sources.",
+    "A summary to your Telegram.",
+    "Run instructions."
+  ],
+  "not_included": "Auto-replies; closed channels or logins; CAPTCHA bypass; hosting.",
+  "price_en": "Starting at $65"
+}

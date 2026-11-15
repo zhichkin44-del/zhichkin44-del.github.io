@@ -1,0 +1,75 @@
+{
+  "slug": "manicure-master-site",
+  "cats": [
+    "Websites"
+  ],
+  "order": 16,
+  "thumb": {
+    "src": "/work/manicure-master-site/01.webp",
+    "alt": "Business-card site for a manicure master"
+  },
+  "title": "Business-card site for a manicure master",
+  "lead": "Services with prices, a gallery, reviews and three booking buttons, in a calm light style.",
+  "category": "Websites",
+  "hero": {
+    "tall": false,
+    "caption": "Lacquer & Dot nail studio: Telegram, WhatsApp and Call buttons, hours and address, then the price list with fixed prices.",
+    "src": "/work/manicure-master-site/01.webp",
+    "w": 1280,
+    "h": 1500,
+    "alt": "Lacquer & Dot nail studio: Telegram, WhatsApp and Call buttons, hours and address, then the price list with fixed prices."
+  },
+  "problem": "A master needs a calm, light site: services with prices, 12-15 works, three booking buttons (Telegram, WhatsApp, phone call), address and schedule.",
+  "built": [
+    "Services and prices in an expandable list.",
+    "A gallery of works.",
+    "Reviews.",
+    "Address with schedule and three booking buttons.",
+    "A responsive phone version."
+  ],
+  "shots_title": "Screens",
+  "shots": [
+    {
+      "tall": false,
+      "caption": "Portfolio: the master's work, each set with its design name and nail shape.",
+      "src": "/work/manicure-master-site/04.webp",
+      "w": 1280,
+      "h": 1070,
+      "alt": "Portfolio: the master's work, each set with its design name and nail shape."
+    },
+    {
+      "tall": false,
+      "caption": "Client reviews: four short notes with stars.",
+      "src": "/work/manicure-master-site/05.webp",
+      "w": 1280,
+      "h": 930,
+      "alt": "Client reviews: four short notes with stars."
+    },
+    {
+      "tall": true,
+      "caption": "On a phone: hours, the address, prices from $12, and the start of the price list.",
+      "src": "/work/manicure-master-site/03.webp",
+      "w": 375,
+      "h": 520,
+      "alt": "On a phone: hours, the address, prices from $12, and the start of the price list."
+    }
+  ],
+  "steps": [
+    "The first screen gives a name and the booking buttons.",
+    "Services with prices open in a list.",
+    "A gallery and reviews build trust.",
+    "Address, schedule and three ways to book."
+  ],
+  "stack": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "offer": [
+    "A business-card site from your texts and photos.",
+    "Booking buttons set to your Telegram, WhatsApp and phone.",
+    "A phone check."
+  ],
+  "not_included": "Hosting, domain and third-party service fees.",
+  "price_en": "Starting at $80"
+}

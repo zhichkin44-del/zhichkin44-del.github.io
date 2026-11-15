@@ -1,0 +1,60 @@
+{
+  "slug": "urbanism-forum-landing",
+  "cats": [
+    "Websites"
+  ],
+  "order": 18,
+  "thumb": {
+    "src": "/work/urbanism-forum-landing/01.webp",
+    "alt": "One-day forum page with program and tickets"
+  },
+  "title": "One-day forum page with program and tickets",
+  "lead": "A calm event page: program, speakers, venue map, a ticket button and free registration for students.",
+  "category": "Websites",
+  "hero": {
+    "tall": false,
+    "caption": "First screen of the urbanism forum site: the date, the venue, a countdown, and the Get tickets and Schedule buttons.",
+    "src": "/work/urbanism-forum-landing/01.webp",
+    "w": 1280,
+    "h": 630,
+    "alt": "First screen of the urbanism forum site: the date, the venue, a countdown, and the Get tickets and Schedule buttons."
+  },
+  "problem": "A one-day forum on urban design needs a single page: a header with the name and date, an about block, a program of 8-10 talks with times, six speaker cards, the venue with a map and how to get there, a ticket button that leads to an external site, and a simple registration form for free student places.",
+  "built": [
+    "A header with the name and date, and a countdown.",
+    "A program of ten talks with times, filterable by topic.",
+    "Six speaker cards with a one-line talk description.",
+    "A venue block with a map drawn as a scheme and directions from the metro.",
+    "A ticket button to an external site, and a registration form for students (name, email, phone, consent)."
+  ],
+  "shots_title": "Screens",
+  "shots": [
+    {
+      "tall": true,
+      "caption": "On a phone: the intro, the Get tickets and Schedule buttons, and the city illustration.",
+      "src": "/work/urbanism-forum-landing/04.webp",
+      "w": 375,
+      "h": 565,
+      "alt": "On a phone: the intro, the Get tickets and Schedule buttons, and the city illustration."
+    }
+  ],
+  "steps": [
+    "The first screen gives the name, date and a countdown.",
+    "The program can be filtered by topic.",
+    "Speakers and the venue map follow.",
+    "The visitor buys a ticket on the external site or registers for a free student place."
+  ],
+  "stack": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "SVG illustrations"
+  ],
+  "offer": [
+    "A one-page event site from your program and speaker data.",
+    "A registration form sent to your email or Telegram.",
+    "A phone check."
+  ],
+  "not_included": "Hosting, domain and third-party service fees.",
+  "price_en": "Starting at $80"
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "dental-clinic-landing",
+  "cats": [
+    "Websites"
+  ],
+  "order": 21,
+  "thumb": {
+    "src": "/work/dental-clinic-landing/01.webp",
+    "alt": "Landing page for a dental clinic"
+  },
+  "title": "Landing page for a dental clinic",
+  "lead": "Services with prices, doctors, patient reviews, a map and an appointment form, in a calm light style.",
+  "category": "Websites",
+  "hero": {
+    "tall": false,
+    "caption": "Nocturne Dental, first screen: a book-your-first-visit form and a phone number.",
+    "src": "/work/dental-clinic-landing/01.webp",
+    "w": 1280,
+    "h": 800,
+    "alt": "Nocturne Dental, first screen: a book-your-first-visit form and a phone number."
+  },
+  "problem": "A small private dental clinic has no site, and appointments are made by phone. It needs a one-page site with services and prices, doctors, reviews, a licence number, an address with a map, opening hours and, above all, an appointment form.",
+  "built": [
+    "A first screen with an appointment form (name, phone, convenient time).",
+    "Six services with a from price for each.",
+    "Four doctor cards with experience and specialisation.",
+    "Patient reviews, address with a map scheme, opening hours and a licence line.",
+    "A second appointment form at the bottom of the page."
+  ],
+  "shots_title": "Screens",
+  "shots": [
+    {
+      "tall": false,
+      "caption": "Services and prices.",
+      "src": "/work/dental-clinic-landing/02.webp",
+      "w": 1280,
+      "h": 900,
+      "alt": "Services and prices."
+    },
+    {
+      "tall": false,
+      "caption": "Four dentists with their specialty and years in practice, then six patient reviews.",
+      "src": "/work/dental-clinic-landing/05.webp",
+      "w": 1280,
+      "h": 1620,
+      "alt": "Four dentists with their specialty and years in practice, then six patient reviews."
+    },
+    {
+      "tall": true,
+      "caption": "The same Nocturne Dental first screen on a phone.",
+      "src": "/work/dental-clinic-landing/04.webp",
+      "w": 375,
+      "h": 812,
+      "alt": "The same Nocturne Dental first screen on a phone."
+    }
+  ],
+  "steps": [
+    "The visitor sees the appointment form on the first screen.",
+    "Services and prices are listed up front.",
+    "Doctors and reviews build trust.",
+    "Map, hours and a second form close the page."
+  ],
+  "stack": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "SVG illustrations"
+  ],
+  "offer": [
+    "A one-page clinic site from your texts and photos.",
+    "Appointment requests sent to your email and Telegram.",
+    "Advice on a domain and hosting."
+  ],
+  "not_included": "Hosting, domain and third-party service fees.",
+  "price_en": "Starting at $80"
+}

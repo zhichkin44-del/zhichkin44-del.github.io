@@ -1,0 +1,65 @@
+{
+  "slug": "youtube-upload-pack",
+  "cats": [
+    "Video & audio"
+  ],
+  "order": 23,
+  "thumb": {
+    "src": "/work/youtube-upload-pack/02.webp",
+    "alt": "YouTube upload pack: titles, chapters, tags and thumbnails"
+  },
+  "title": "YouTube upload pack: titles, chapters, tags and thumbnails",
+  "lead": "Everything a finished video needs to be uploaded: title options, a description with chapters, tags and three thumbnails.",
+  "category": "Video & audio",
+  "hero": {
+    "tall": false,
+    "caption": "The pack: titles, chapters, description, tags.",
+    "src": "/work/youtube-upload-pack/02.webp",
+    "w": 1280,
+    "h": 720,
+    "alt": "The pack: titles, chapters, description, tags."
+  },
+  "problem": "The video is ready, but the upload stalls: you need a title, chapters by timecode, a description, tags and a thumbnail.",
+  "built": [
+    "Three title options to choose from.",
+    "A description with chapters by timecode: 11 chapters in this video.",
+    "A list of sources under the description.",
+    "Tags and upload settings: category, language, end screen, playlist.",
+    "Three thumbnail variants with different looks: pick one or test them on your audience."
+  ],
+  "shots_title": "Screens",
+  "shots": [
+    {
+      "tall": false,
+      "caption": "Three thumbnails to test: YouTube shows them to different viewers and keeps the best.",
+      "src": "/work/youtube-upload-pack/03.webp",
+      "w": 1280,
+      "h": 720,
+      "alt": "Three thumbnails to test: YouTube shows them to different viewers and keeps the best."
+    },
+    {
+      "tall": false,
+      "caption": "An upload card for a Short.",
+      "src": "/work/youtube-upload-pack/04.webp",
+      "w": 1280,
+      "h": 720,
+      "alt": "An upload card for a Short."
+    }
+  ],
+  "steps": [
+    "You send the finished video.",
+    "Titles, chapters and description are written from its content.",
+    "Three thumbnails are drawn in different looks.",
+    "You get one file and the images, ready for the upload page."
+  ],
+  "stack": [
+    "Python",
+    "HTML graphics"
+  ],
+  "offer": [
+    "Titles, a description with chapters, tags and three thumbnails, in one file and as images.",
+    "Two rounds of text revisions."
+  ],
+  "not_included": "Uploading and publishing to the channel; any promise of views or subscribers.",
+  "price_en": "On request, after a short brief"
+}

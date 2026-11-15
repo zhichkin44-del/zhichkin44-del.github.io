@@ -1,0 +1,92 @@
+{
+  "slug": "team-messenger",
+  "cats": [
+    "Apps"
+  ],
+  "order": 4,
+  "thumb": {
+    "src": "/work/team-messenger/01.webp",
+    "alt": "Team messenger where assistants report and ask before acting"
+  },
+  "title": "Team messenger where assistants report and ask before acting",
+  "lead": "A self-hosted team chat where automated assistants post their status and ask you with buttons before they act.",
+  "category": "Apps",
+  "hero": {
+    "tall": false,
+    "caption": "Desktop, light theme. A team workspace.",
+    "src": "/work/team-messenger/01.webp",
+    "w": 1280,
+    "h": 1120,
+    "alt": "Desktop, light theme. A team workspace."
+  },
+  "problem": "A team where part of the routine is done by automated assistants (programs that check warehouse stock, collect orders, prepare reports) needed one place to see what each assistant is doing and to answer it, instead of digging through email and different windows.",
+  "built": [
+    "Familiar chats: direct messages and group rooms, voice messages, photos, documents, search.",
+    "Cards instead of walls of text: an assistant posts working, done or failed; asks a question with buttons ('Send buyers a reminder? Send / Wait') and acts only after your answer.",
+    "Works on phone and desktop.",
+    "You stay in control: invite-only sign-up, an owner panel unlocked with a code from the owner's phone, an activity log, and a daily backup of the data."
+  ],
+  "shots_title": "Screens",
+  "shots": [
+    {
+      "tall": false,
+      "caption": "Desktop, dark theme: one agent asks for a decision with buttons, another hands over work as a Done / Next / Files card.",
+      "src": "/work/team-messenger/02.webp",
+      "w": 1280,
+      "h": 1120,
+      "alt": "Desktop, dark theme: one agent asks for a decision with buttons, another hands over work as a Done / Next / Files card."
+    },
+    {
+      "tall": true,
+      "caption": "A room on a phone: an agent's handoff card and people's replies.",
+      "src": "/work/team-messenger/03.webp",
+      "w": 750,
+      "h": 1624,
+      "alt": "A room on a phone: an agent's handoff card and people's replies."
+    },
+    {
+      "tall": true,
+      "caption": "The chat list on a phone.",
+      "src": "/work/team-messenger/04.webp",
+      "w": 750,
+      "h": 1624,
+      "alt": "The chat list on a phone."
+    },
+    {
+      "tall": false,
+      "caption": "Owner panel: invites with a use limit and expiry date, and a revoke button.",
+      "src": "/work/team-messenger/05.webp",
+      "w": 1280,
+      "h": 853,
+      "alt": "Owner panel: invites with a use limit and expiry date, and a revoke button."
+    },
+    {
+      "tall": false,
+      "caption": "Phone, light theme: the chat list with agents and people next to a room.",
+      "src": "/work/team-messenger/06.webp",
+      "w": 1320,
+      "h": 880,
+      "alt": "Phone, light theme: the chat list with agents and people next to a room."
+    }
+  ],
+  "steps": [
+    "An assistant posts a status card to a room.",
+    "When it needs a decision it asks with buttons.",
+    "It acts only after your answer.",
+    "Everything is logged, and the data is backed up every day."
+  ],
+  "stack": [
+    "React",
+    "TypeScript",
+    "Node.js",
+    "PostgreSQL"
+  ],
+  "offer": [
+    "Installing the messenger (it is called Zokul) on your server (if you have none, I will advise what to rent).",
+    "Connecting one of your assistants: it posts to the chat and asks you with buttons.",
+    "You own the code and the access after handover, with a short guide.",
+    "New assistants built around your data are a separate stage, scoped from your brief."
+  ],
+  "not_included": "Hosting, domain and third-party service fees.",
+  "price_en": "Starting at $100"
+}
