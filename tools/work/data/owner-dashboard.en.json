@@ -14,11 +14,11 @@
   "category": "Apps / Automation",
   "hero": {
     "tall": false,
-    "caption": "Decisions waiting for the owner. The interface text on the screen is in Russian.",
+    "caption": "Decisions screen: the list of what waits for the owner; the open card «Delivery calculation» shows now / if accepted, with Accept, Reject and Discuss buttons (interface in Russian).",
     "src": "/work/owner-dashboard/03.webp",
     "w": 1440,
     "h": 900,
-    "alt": "Decisions waiting for the owner. The interface text on the screen is in Russian."
+    "alt": "Decisions screen: the list of what waits for the owner; the open card «Delivery calculation» shows now / if accepted, with Accept, Reject and Discuss buttons (interface in Russian)."
   },
   "problem": "Several projects, assistants on different computers, and ten windows to open to see where things stand. People want one place.",
   "built": [
@@ -32,19 +32,19 @@
   "shots": [
     {
       "tall": false,
-      "caption": "Assistants and tasks. The interface text on the screen is in Russian.",
+      "caption": "Crew screen: assistant cards with the model (Haiku 5.5 / Sonnet 5.5), status and today's cost; on the right, which agents are working now (interface in Russian).",
       "src": "/work/owner-dashboard/04.webp",
       "w": 1440,
       "h": 900,
-      "alt": "Assistants and tasks. The interface text on the screen is in Russian."
+      "alt": "Crew screen: assistant cards with the model (Haiku 5.5 / Sonnet 5.5), status and today's cost; on the right, which agents are working now (interface in Russian)."
     },
     {
       "tall": true,
-      "caption": "The phone version. The interface text on the screen is in Russian.",
+      "caption": "A project on a phone: the overview tab, a decision «Cart page ready for review» with an Accept button, and a bottom bar with a voice button (interface in Russian).",
       "src": "/work/owner-dashboard/05.webp",
       "w": 750,
       "h": 1624,
-      "alt": "The phone version. The interface text on the screen is in Russian."
+      "alt": "A project on a phone: the overview tab, a decision «Cart page ready for review» with an Accept button, and a bottom bar with a voice button (interface in Russian)."
     }
   ],
   "steps": [

@@ -13,17 +13,17 @@
   "category": "Video & audio",
   "hero": {
     "tall": false,
-    "caption": "Service cover.",
+    "caption": "Service overview: Shorts with subtitles from your video, from $50 in 2 days.",
     "src": "/work/shorts-and-reels/01.webp",
     "w": 1320,
     "h": 880,
-    "alt": "Service cover."
+    "alt": "Service overview: Shorts with subtitles from your video, from $50 in 2 days."
   },
   "problem": "A creator wants regular vertical clips but cutting and editing take a whole evening every time.",
   "built": [
     "Vertical 1080x1920 videos of 49-51 seconds, one file for YouTube and TikTok.",
-    "Captions burned into the frame, and pictures that follow the meaning of the speech.",
-    "Automatic checks of length, loudness and on-screen text before handover; measured loudness of -14.3, -14.0 and -13.8 LUFS.",
+    "Subtitles burned into the frame, and pictures that follow the meaning of the speech.",
+    "Automatic checks of length, loudness and on-screen text before handover; measured loudness of -14.3, -14.0 and -13.8 LUFS (LUFS is the loudness unit platforms use to level tracks and videos).",
     "An upload card for each Short: title, description, first comment."
   ],
   "shots_title": "Screens",
@@ -53,5 +53,5 @@
     "Optional covers and publishing text."
   ],
   "not_included": "Publishing; Any promise of views; Videos you have no rights to.",
-  "price_en": "On request, after a short brief"
+  "price_en": "Starting at $50"
 }
