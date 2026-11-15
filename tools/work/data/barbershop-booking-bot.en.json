@@ -13,11 +13,11 @@
   "category": "Bots",
   "hero": {
     "tall": false,
-    "caption": "Bot page with its in-browser version (desktop).",
+    "caption": "Bot page: the booking chat on a phone next to the offer, with service prices and reminders.",
     "src": "/work/barbershop-booking-bot/01.webp",
     "w": 1280,
-    "h": 1500,
-    "alt": "Bot page with its in-browser version (desktop)."
+    "h": 800,
+    "alt": "Bot page: the booking chat on a phone next to the offer, with service prices and reminders."
   },
   "problem": "A barbershop wants clients to book themselves in a chat: choose a service, a master, a day and a time, get a confirmation, and be reminded a day and two hours before. The owner needs to be told about each booking and to see all of them in a table.",
   "built": [
@@ -30,11 +30,11 @@
   "shots": [
     {
       "tall": true,
-      "caption": "In-browser version on a phone: a finished booking.",
+      "caption": "A finished booking on a phone: reminders 24 h and 2 h before, with a cancel button.",
       "src": "/work/barbershop-booking-bot/02.webp",
       "w": 375,
-      "h": 845,
-      "alt": "In-browser version on a phone: a finished booking."
+      "h": 725,
+      "alt": "A finished booking on a phone: reminders 24 h and 2 h before, with a cancel button."
     },
     {
       "tall": false,
@@ -53,7 +53,7 @@
   ],
   "stack": [
     "Telegram bot",
-    "In-browser version of the bot (HTML, CSS, JavaScript)"
+    "Booking page in the browser (HTML, CSS, JavaScript)"
   ],
   "offer": [
     "A booking bot for your salon, studio or solo master: services, masters, working hours.",
@@ -61,6 +61,6 @@
     "A bookings table for the owner.",
     "Setup on your Telegram bot token."
   ],
-  "not_included": "Connection to any CRM without looking at it first.",
+  "not_included": "CRM integration — quoted separately once I see which CRM you use.",
   "price_en": "Starting at $80"
 }

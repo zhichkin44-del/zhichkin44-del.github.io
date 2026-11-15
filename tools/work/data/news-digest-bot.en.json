@@ -40,11 +40,11 @@
     },
     {
       "tall": false,
-      "caption": "Importance scoring.",
+      "caption": "Why each event made the feed: a score from freshness, number of independent sources and category; urgent, planned or below threshold (events in Russian).",
       "src": "/work/news-digest-bot/04.webp",
       "w": 1280,
       "h": 800,
-      "alt": "Importance scoring."
+      "alt": "Why each event made the feed: a score from freshness, number of independent sources and category; urgent, planned or below threshold (events in Russian)."
     },
     {
       "tall": true,
