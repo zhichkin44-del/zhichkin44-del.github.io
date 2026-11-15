@@ -28,7 +28,16 @@
     "A ticket button to an external site, and a registration form for students (name, email, phone, consent)."
   ],
   "shots_title": "Screens",
-  "shots": [],
+  "shots": [
+    {
+      "tall": true,
+      "caption": "On a phone: the intro, the Get tickets and Schedule buttons, and the city illustration.",
+      "src": "/work/urbanism-forum-landing/04.webp",
+      "w": 375,
+      "h": 565,
+      "alt": "On a phone: the intro, the Get tickets and Schedule buttons, and the city illustration."
+    }
+  ],
   "steps": [
     "The first screen gives the name, date and a countdown.",
     "The program can be filtered by topic.",
