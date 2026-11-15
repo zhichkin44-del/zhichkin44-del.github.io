@@ -39,7 +39,7 @@
     "Node.js 20+",
     "Telegram Bot API",
     "ffmpeg",
-    "node:test"
+    "Node.js built-in tests"
   ],
   "offer": [
     "A bot with a day-by-day task script for your use case.",

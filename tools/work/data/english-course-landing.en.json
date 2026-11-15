@@ -13,11 +13,11 @@
   "category": "Websites",
   "hero": {
     "tall": false,
-    "caption": "Call Ready English: the offer, a sample call dialogue and Join the next cohort.",
+    "caption": "Call Ready English: the offer, a call dialogue and Join the next cohort.",
     "src": "/work/english-course-landing/01.webp",
     "w": 1280,
     "h": 800,
-    "alt": "Call Ready English: the offer, a sample call dialogue and Join the next cohort."
+    "alt": "Call Ready English: the offer, a call dialogue and Join the next cohort."
   },
   "problem": "An author selling an English course for IT people needs a landing page: a clear offer, who it is for (front end, back end, QA, devops), a six-week program, what students get, two price columns, a FAQ and an application form.",
   "built": [
@@ -51,7 +51,7 @@
   ],
   "offer": [
     "A course landing built from your texts and materials.",
-    "Applications sent to your Telegram, email or CRM (part of a real order).",
+    "Applications sent to your Telegram, email or CRM.",
     "A phone check."
   ],
   "not_included": "Hosting, domain and third-party service fees.",

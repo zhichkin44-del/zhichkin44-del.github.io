@@ -39,7 +39,7 @@
     "Node.js 20+",
     "Telegram Bot API",
     "ffmpeg",
-    "node:test"
+    "Встроенные тесты Node.js"
   ],
   "offer": [
     "Бот с пошаговым сценарием заданий под ваш случай.",
