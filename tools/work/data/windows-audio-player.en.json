@@ -14,11 +14,11 @@
   "category": "Apps / Video & audio",
   "hero": {
     "tall": false,
-    "caption": "The installer.",
+    "caption": "Installation in three steps: one file of about 2 MB, no administrator rights needed.",
     "src": "/work/windows-audio-player/02.webp",
     "w": 1280,
     "h": 720,
-    "alt": "The installer."
+    "alt": "Installation in three steps: one file of about 2 MB, no administrator rights needed."
   },
   "problem": "Music lives in folders on a computer. Big players are heavy and cover half the screen, and a browser tab gets lost or gets in the way. A player should always be at hand, take up a corner of the desktop and understand folders the way they are laid out.",
   "built": [

@@ -31,11 +31,11 @@
   "shots": [
     {
       "tall": false,
-      "caption": "Three thumbnail variants.",
+      "caption": "Three thumbnails to test: YouTube shows them to different viewers and keeps the best.",
       "src": "/work/youtube-upload-pack/03.webp",
       "w": 1280,
       "h": 720,
-      "alt": "Three thumbnail variants."
+      "alt": "Three thumbnails to test: YouTube shows them to different viewers and keeps the best."
     },
     {
       "tall": false,
