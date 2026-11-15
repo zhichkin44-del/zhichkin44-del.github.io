@@ -32,11 +32,11 @@
   "shots": [
     {
       "tall": true,
-      "caption": "A vacancy card on a phone: tasks, requirements, the matching résumé version, and buttons to open the vacancy, copy the text, mark it sent, skip it or reject it (in Russian).",
+      "caption": "A vacancy card on a phone: tasks, requirements, the matching resume version, and buttons to open the vacancy, copy the text, mark it sent, skip it or reject it (in Russian).",
       "src": "/work/job-feed-bot/04.webp",
       "w": 750,
       "h": 860,
-      "alt": "A vacancy card on a phone: tasks, requirements, the matching résumé version, and buttons to open the vacancy, copy the text, mark it sent, skip it or reject it (in Russian)."
+      "alt": "A vacancy card on a phone: tasks, requirements, the matching resume version, and buttons to open the vacancy, copy the text, mark it sent, skip it or reject it (in Russian)."
     }
   ],
   "steps": [
