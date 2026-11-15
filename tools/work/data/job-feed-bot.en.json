@@ -25,7 +25,7 @@
     "Collection from open feeds and public channels, with no account logins.",
     "Duplicate merging, and filtering by rules such as wrong role or not remote.",
     "The bot scores every vacancy out of 100 and sends only those scoring 55 or more: at most 10 a day, no repeats.",
-    "Card buttons (Open, Sent, Skip, Not mine) remember your answer; Not mine is taken into account later.",
+    "Card buttons (Open vacancy, Copy text, Sent, Skip, Not mine) remember your answer; Not mine is taken into account later.",
     "A letter draft from your approved wording; the model's reply drafts are checked against your profile facts, so it does not invent experience, and figures are checked against your facts."
   ],
   "shots_title": "Screens",
