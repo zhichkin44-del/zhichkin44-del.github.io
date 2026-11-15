@@ -32,35 +32,35 @@
   "shots": [
     {
       "tall": false,
-      "caption": "The track list. The interface text on the screen is in Russian.",
+      "caption": "An album's tracks: search, plus Play all and Add to playlist buttons (interface in Russian).",
       "src": "/work/windows-audio-player/03.webp",
       "w": 1040,
       "h": 1000,
-      "alt": "The track list. The interface text on the screen is in Russian."
+      "alt": "An album's tracks: search, plus Play all and Add to playlist buttons (interface in Russian)."
     },
     {
       "tall": false,
-      "caption": "Albums built from folders. The interface text on the screen is in Russian.",
+      "caption": "Albums with covers — the player builds them from your music folders (interface in Russian).",
       "src": "/work/windows-audio-player/04.webp",
       "w": 1040,
       "h": 880,
-      "alt": "Albums built from folders. The interface text on the screen is in Russian."
+      "alt": "Albums with covers — the player builds them from your music folders (interface in Russian)."
     },
     {
       "tall": false,
-      "caption": "Playlists. The interface text on the screen is in Russian.",
+      "caption": "Playlists: Favourites, Night mix, Gym and a new-playlist button (interface in Russian).",
       "src": "/work/windows-audio-player/05.webp",
       "w": 1040,
       "h": 1240,
-      "alt": "Playlists. The interface text on the screen is in Russian."
+      "alt": "Playlists: Favourites, Night mix, Gym and a new-playlist button (interface in Russian)."
     },
     {
       "tall": false,
-      "caption": "The widget on the desktop. The interface text on the screen is in Russian.",
+      "caption": "The desktop mini-player: cover, track title, controls and time (interface in Russian).",
       "src": "/work/windows-audio-player/06.webp",
-      "w": 1600,
-      "h": 1067,
-      "alt": "The widget on the desktop. The interface text on the screen is in Russian."
+      "w": 900,
+      "h": 507,
+      "alt": "The desktop mini-player: cover, track title, controls and time (interface in Russian)."
     }
   ],
   "steps": [

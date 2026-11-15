@@ -14,11 +14,11 @@
   "category": "Bots / Automation",
   "hero": {
     "tall": false,
-    "caption": "A post card. The text is in Russian.",
+    "caption": "Two post cards: Technology with a big headline number, Space with a headline and subline (in Russian).",
     "src": "/work/news-digest-bot/02.webp",
     "w": 1280,
     "h": 800,
-    "alt": "A post card. The text is in Russian."
+    "alt": "Two post cards: Technology with a big headline number, Space with a headline and subline (in Russian)."
   },
   "problem": "Finding the main stories among hundreds of feeds and posting on time, without manual routine.",
   "built": [
@@ -32,11 +32,11 @@
   "shots": [
     {
       "tall": false,
-      "caption": "The channel view, following the bot's format. Russian text.",
+      "caption": "The channel view in the bot's format (in Russian).",
       "src": "/work/news-digest-bot/03.webp",
       "w": 1280,
       "h": 800,
-      "alt": "The channel view, following the bot's format. Russian text."
+      "alt": "The channel view in the bot's format (in Russian)."
     },
     {
       "tall": false,
@@ -48,11 +48,11 @@
     },
     {
       "tall": true,
-      "caption": "On a phone. Russian text.",
+      "caption": "The channel on a phone (in Russian).",
       "src": "/work/news-digest-bot/05.webp",
       "w": 750,
       "h": 1624,
-      "alt": "On a phone. Russian text."
+      "alt": "The channel on a phone (in Russian)."
     }
   ],
   "steps": [
