@@ -42,8 +42,6 @@ h3{font-size:1.05rem}
 .cl{display:flex;flex-direction:column;height:100%;text-decoration:none}
 .thumb{position:relative;aspect-ratio:3/2;background:var(--glass);overflow:hidden}
 .thumb img{width:100%;height:100%;object-fit:contain}
-.demo{position:absolute;left:10px;top:10px;background:var(--void);color:var(--ember);border:1px solid var(--ember);border-radius:999px;font-size:.75rem;padding:3px 10px;font-weight:600}
-.demo.inline{position:static;display:inline-block;margin-top:8px}
 .cb{padding:16px;display:flex;flex-direction:column;gap:8px;flex:1}
 .cb h3{margin:0}
 .cb p{margin:0;color:var(--muted);font-size:.95rem}
@@ -67,7 +65,6 @@ h3{font-size:1.05rem}
 .steps li{display:flex;gap:14px;align-items:flex-start;background:var(--card);border:1px solid var(--edge);border-radius:var(--radius-sm);padding:14px}
 .steps span{flex:none;width:32px;height:32px;border-radius:50%;background:var(--ember);color:var(--on-ember);display:grid;place-items:center;font-weight:700}
 .steps p{margin:0}
-.demonote{background:var(--card);border:1px solid var(--edge);border-left:3px solid var(--ember);padding:12px 16px;border-radius:var(--radius-sm);font-size:.92rem;color:var(--muted)}
 .shots .narrow-h{max-width:760px;margin-left:auto;margin-right:auto}
 .shot{margin:0 0 36px;text-align:center}
 .shot a{display:block}.shot img{width:100%;border-radius:var(--radius-sm);border:1px solid var(--edge);background:var(--glass)}
