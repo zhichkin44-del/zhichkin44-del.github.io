@@ -78,7 +78,7 @@ def price(d, lang):
     p = d['price_en']
     if lang == 'en':
         return p.replace('Starting at pilot $180 for a pilot', 'Pilot from $180')
-    if 'on request' in p:
+    if 'on request' in p.lower():
         return 'По брифу'
     m = re.search(r'\$(\d+)', p)
     if 'pilot' in p:

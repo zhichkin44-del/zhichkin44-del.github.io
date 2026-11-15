@@ -23,7 +23,7 @@
   "built": [
     "Vertical 1080x1920 videos of 49-51 seconds, one file for YouTube and TikTok.",
     "Captions burned into the frame, and pictures that follow the meaning of the speech.",
-    "Automatic checks of length, loudness and on-screen text before handover; in the sample, loudness of -14.3, -14.0 and -13.8 LUFS.",
+    "Automatic checks of length, loudness and on-screen text before handover; measured loudness of -14.3, -14.0 and -13.8 LUFS.",
     "An upload card for each Short: title, description, first comment."
   ],
   "shots_title": "Screens",
@@ -49,9 +49,9 @@
   ],
   "offer": [
     "A set of finished vertical clips with captions.",
-    "A free sample: one Short from your video before you order.",
+    "A free trial: one Short from your video before you order.",
     "Optional covers and publishing text."
   ],
   "not_included": "Publishing; Any promise of views; Videos you have no rights to.",
-  "price_en": "Price: on request, after a short brief"
+  "price_en": "On request, after a short brief"
 }
