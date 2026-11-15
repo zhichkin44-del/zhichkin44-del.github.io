@@ -28,7 +28,16 @@
     "Reads on a phone without horizontal scrolling."
   ],
   "shots_title": "Screens",
-  "shots": [],
+  "shots": [
+    {
+      "tall": true,
+      "caption": "On a phone: Book a table and See the menu buttons, the Open now status, and three facts about the shop.",
+      "src": "/work/coffee-shop-landing/03.webp",
+      "w": 375,
+      "h": 1184,
+      "alt": "On a phone: Book a table and See the menu buttons, the Open now status, and three facts about the shop."
+    }
+  ],
   "steps": [
     "The first screen shows the name and the booking button.",
     "A passport for each coffee tells the story of the beans.",
