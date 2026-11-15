@@ -13,11 +13,11 @@
   "category": "Video & audio",
   "hero": {
     "tall": false,
-    "caption": "The grid check report.",
+    "caption": "Grid check: hits per instrument and the largest offset from the grid.",
     "src": "/work/custom-beat/02.webp",
     "w": 1280,
     "h": 720,
-    "alt": "The grid check report."
+    "alt": "Grid check: hits per instrument and the largest offset from the grid."
   },
   "problem": "An artist needs a beat in their own mood rather than one from a catalogue, with nothing to complain about in the sound: steady rhythm, right loudness, cover and details in place.",
   "built": [

@@ -13,11 +13,11 @@
   "category": "Video & audio",
   "hero": {
     "tall": false,
-    "caption": "Production stages.",
+    "caption": "Four stages of one video: a sourced script, the voiceover, a 346-shot edit and the upload files.",
     "src": "/work/youtube-video-production/02.webp",
     "w": 1280,
     "h": 720,
-    "alt": "Production stages."
+    "alt": "Four stages of one video: a sourced script, the voiceover, a 346-shot edit and the upload files."
   },
   "problem": "The client needed to release a video every week and several Shorts, but the script, voiceover, editing and thumbnails took all the time, and the channel came out irregularly.",
   "built": [
@@ -31,11 +31,11 @@
   "shots": [
     {
       "tall": false,
-      "caption": "Frames from the finished video.",
+      "caption": "Frames from the finished video: route map, courtroom, ship's pump; subtitles burned in.",
       "src": "/work/youtube-video-production/03.webp",
       "w": 1280,
       "h": 720,
-      "alt": "Frames from the finished video."
+      "alt": "Frames from the finished video: route map, courtroom, ship's pump; subtitles burned in."
     }
   ],
   "steps": [

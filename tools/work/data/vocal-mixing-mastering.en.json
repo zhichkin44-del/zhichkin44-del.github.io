@@ -31,19 +31,19 @@
   "shots": [
     {
       "tall": false,
-      "caption": "Measurements of the voice.",
+      "caption": "What was done to the voice: syllable peaks, loudness spread and sibilance before and after, plus tone changes per band.",
       "src": "/work/vocal-mixing-mastering/03.webp",
       "w": 1280,
       "h": 720,
-      "alt": "Measurements of the voice."
+      "alt": "What was done to the voice: syllable peaks, loudness spread and sibilance before and after, plus tone changes per band."
     },
     {
       "tall": false,
-      "caption": "The loudness check.",
+      "caption": "Loudness of the finished track: −10.0 LUFS against a −10 target; the voice alone was −27.4 LUFS.",
       "src": "/work/vocal-mixing-mastering/04.webp",
       "w": 1280,
       "h": 720,
-      "alt": "The loudness check."
+      "alt": "Loudness of the finished track: −10.0 LUFS against a −10 target; the voice alone was −27.4 LUFS."
     }
   ],
   "steps": [

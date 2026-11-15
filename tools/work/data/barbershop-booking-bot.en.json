@@ -24,7 +24,7 @@
     "A page for the bot and an in-browser version of it: you can go through a whole booking with buttons, from service to confirmation.",
     "Times that are taken or already past cannot be chosen; cancelling a booking frees the slot.",
     "The owner gets a notification and has a bookings panel.",
-    "The real Telegram bot is launched after an order; the client creates the bot token."
+    "For your salon the bot connects to your own Telegram account: you create the bot key in a couple of minutes, and I guide you step by step."
   ],
   "shots_title": "Screens",
   "shots": [

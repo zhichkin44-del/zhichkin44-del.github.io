@@ -13,11 +13,11 @@
   "category": "Websites",
   "hero": {
     "tall": false,
-    "caption": "The catalogue.",
+    "caption": "Project catalog: each card shows status, summary and next step.",
     "src": "/work/two-language-site/03.webp",
     "w": 1280,
     "h": 720,
-    "alt": "The catalogue."
+    "alt": "Project catalog: each card shows status, summary and next step."
   },
   "problem": "Make it clear within a minute what the author does and what has been done. Pages should open fast, read well on a phone and in two languages, and a new item should be addable without rebuilding the site.",
   "built": [
@@ -31,11 +31,11 @@
   "shots": [
     {
       "tall": false,
-      "caption": "A project page.",
+      "caption": "A project page: description, version, download button and a four-part outline.",
       "src": "/work/two-language-site/04.webp",
       "w": 1280,
       "h": 720,
-      "alt": "A project page."
+      "alt": "A project page: description, version, download button and a four-part outline."
     },
     {
       "tall": true,
