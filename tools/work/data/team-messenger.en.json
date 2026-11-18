@@ -5,7 +5,7 @@
   ],
   "order": 4,
   "thumb": {
-    "src": "/work/team-messenger/01.webp",
+    "src": "/work/team-messenger/ru-room.webp",
     "alt": "Team messenger where assistants report and ask before acting"
   },
   "title": "Team messenger where assistants report and ask before acting",
@@ -13,11 +13,11 @@
   "category": "Apps",
   "hero": {
     "tall": false,
-    "caption": "Desktop, light theme. A team workspace.",
-    "src": "/work/team-messenger/01.webp",
-    "w": 1280,
-    "h": 1120,
-    "alt": "Desktop, light theme. A team workspace."
+    "caption": "A team room on a computer: an agent hands work over as a card — done, next, files (interface in Russian; names blurred).",
+    "src": "/work/team-messenger/ru-room.webp",
+    "w": 2560,
+    "h": 1600,
+    "alt": "A team room on a computer: an agent hands work over as a card — done, next, files (interface in Russian; names blurred)."
   },
   "problem": "A team where part of the routine is done by automated assistants (programs that check warehouse stock, collect orders, prepare reports) needed one place to see what each assistant is doing and to answer it, instead of digging through email and different windows.",
   "built": [
@@ -30,43 +30,27 @@
   "shots": [
     {
       "tall": false,
-      "caption": "Desktop, dark theme: one agent asks for a decision with buttons, another hands over work as a Done / Next / Files card.",
-      "src": "/work/team-messenger/02.webp",
-      "w": 1280,
-      "h": 1120,
-      "alt": "Desktop, dark theme: one agent asks for a decision with buttons, another hands over work as a Done / Next / Files card."
+      "caption": "A team room on a computer: an agent hands work over as a card — done, next, files (interface in Russian; names blurred).",
+      "src": "/work/team-messenger/ru-room.webp",
+      "w": 2560,
+      "h": 1600,
+      "alt": "A team room on a computer: an agent hands work over as a card — done, next, files (interface in Russian; names blurred)."
     },
     {
       "tall": true,
-      "caption": "A room on a phone: an agent's handoff card and people's replies.",
-      "src": "/work/team-messenger/03.webp",
-      "w": 750,
-      "h": 1624,
-      "alt": "A room on a phone: an agent's handoff card and people's replies."
-    },
-    {
-      "tall": true,
-      "caption": "The chat list on a phone.",
-      "src": "/work/team-messenger/04.webp",
-      "w": 750,
-      "h": 1624,
-      "alt": "The chat list on a phone."
+      "caption": "The same room on a phone: a hand-off card from an agent to a person (interface in Russian).",
+      "src": "/work/team-messenger/ru-phone.webp",
+      "w": 780,
+      "h": 1688,
+      "alt": "The same room on a phone: a hand-off card from an agent to a person (interface in Russian)."
     },
     {
       "tall": false,
-      "caption": "Admin panel: invites with a use limit and expiry date, and a revoke button.",
-      "src": "/work/team-messenger/05.webp",
-      "w": 1280,
-      "h": 853,
-      "alt": "Admin panel: invites with a use limit and expiry date, and a revoke button."
-    },
-    {
-      "tall": false,
-      "caption": "Phone, light theme: the chat list with agents and people next to a room.",
-      "src": "/work/team-messenger/06.webp",
-      "w": 1320,
-      "h": 880,
-      "alt": "Phone, light theme: the chat list with agents and people next to a room."
+      "caption": "Admin panel: people, agents, messages today, activity log (interface in Russian; names blurred).",
+      "src": "/work/team-messenger/ru-admin.webp",
+      "w": 2560,
+      "h": 1600,
+      "alt": "Admin panel: people, agents, messages today, activity log (interface in Russian; names blurred)."
     }
   ],
   "steps": [

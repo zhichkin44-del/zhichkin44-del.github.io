@@ -6,20 +6,11 @@
   ],
   "order": 8,
   "thumb": {
-    "src": "/work/news-digest-bot/02.webp",
-    "alt": "A Telegram channel that posts its own news digest"
+    "text": "Feeds → selection → channel post"
   },
   "title": "A Telegram channel that posts its own news digest",
   "lead": "Reads news feeds, merges duplicates, scores importance and prepares short posts with a picture for your approval.",
   "category": "Bots / Automation",
-  "hero": {
-    "tall": false,
-    "caption": "Two post cards: Technology with a big headline number, Space with a headline and subline (in Russian).",
-    "src": "/work/news-digest-bot/02.webp",
-    "w": 1280,
-    "h": 800,
-    "alt": "Two post cards: Technology with a big headline number, Space with a headline and subline (in Russian)."
-  },
   "problem": "Finding the main stories among hundreds of feeds and posting on time, without manual routine.",
   "built": [
     "News feeds and trend signals, polled every 2 minutes.",
@@ -29,32 +20,7 @@
     "At most three posts an hour; only approved posts go out."
   ],
   "shots_title": "Screens",
-  "shots": [
-    {
-      "tall": false,
-      "caption": "The channel view in the bot's format (in Russian).",
-      "src": "/work/news-digest-bot/03.webp",
-      "w": 1280,
-      "h": 800,
-      "alt": "The channel view in the bot's format (in Russian)."
-    },
-    {
-      "tall": false,
-      "caption": "Why each event made the feed: a score from freshness, number of independent sources and category; urgent, planned or below threshold (events in Russian).",
-      "src": "/work/news-digest-bot/04.webp",
-      "w": 1280,
-      "h": 800,
-      "alt": "Why each event made the feed: a score from freshness, number of independent sources and category; urgent, planned or below threshold (events in Russian)."
-    },
-    {
-      "tall": true,
-      "caption": "The channel on a phone (in Russian).",
-      "src": "/work/news-digest-bot/05.webp",
-      "w": 750,
-      "h": 1624,
-      "alt": "The channel on a phone (in Russian)."
-    }
-  ],
+  "shots": [],
   "steps": [
     "Feeds are polled every two minutes.",
     "Stories about one event are merged and scored.",
