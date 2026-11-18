@@ -5,38 +5,29 @@
   ],
   "order": 24,
   "thumb": {
-    "src": "/work/shorts-and-reels/01.webp",
-    "alt": "Shorts and Reels from one topic"
+    "src": "/work/shorts-and-reels/02.webp",
+    "alt": "Frames from the vertical Shorts."
   },
   "title": "Shorts and Reels from one topic",
   "lead": "Vertical 1080x1920 clips of 49–51 seconds, one file for YouTube Shorts and TikTok, checked before handover.",
   "category": "Video & audio",
   "hero": {
     "tall": false,
-    "caption": "Service overview: Shorts with subtitles from your video, from $50 in 2 days.",
-    "src": "/work/shorts-and-reels/01.webp",
-    "w": 1320,
-    "h": 880,
-    "alt": "Service overview: Shorts with subtitles from your video, from $50 in 2 days."
+    "caption": "Frames from the vertical Shorts.",
+    "src": "/work/shorts-and-reels/02.webp",
+    "w": 1280,
+    "h": 720,
+    "alt": "Frames from the vertical Shorts."
   },
   "problem": "A creator wants regular vertical clips but cutting and editing take a whole evening every time.",
   "built": [
     "Vertical 1080x1920 videos of 49-51 seconds, one file for YouTube and TikTok.",
     "Subtitles burned into the frame, and pictures that follow the meaning of the speech.",
-    "Automatic checks of length, loudness and on-screen text before handover; measured loudness of -14.3, -14.0 and -13.8 LUFS (LUFS is the loudness unit platforms use to level tracks and videos).",
+    "Automatic checks of length, loudness and on-screen text before handover; three clips measured as of 14 Nov 2026: −14.3, −14.0 and −13.8 LUFS (LUFS is the loudness unit platforms use to level tracks and videos).",
     "An upload card for each Short: title, description, first comment."
   ],
   "shots_title": "Screens",
-  "shots": [
-    {
-      "tall": false,
-      "caption": "Frames from the vertical Shorts.",
-      "src": "/work/shorts-and-reels/02.webp",
-      "w": 1280,
-      "h": 720,
-      "alt": "Frames from the vertical Shorts."
-    }
-  ],
+  "shots": [],
   "steps": [
     "You give a topic or a long video you own.",
     "The best moments are chosen, and you see the choice before editing.",

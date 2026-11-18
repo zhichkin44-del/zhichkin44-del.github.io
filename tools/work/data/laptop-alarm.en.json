@@ -25,7 +25,7 @@
     "The PIN itself is never stored, only a one-way fingerprint of it (scrypt) that cannot be turned back into the PIN; 5 wrong tries lock PIN entry for 30 seconds, and the lock survives a restart.",
     "An icon in the Windows notification area with a menu and a PIN box, an event log, and a phone message through ntfy, a free phone notification app (if you turn it on).",
     "26 automated tests of the guard pass with no external services.",
-    "Sound detector (the next module): notices a sound louder than the background, a dead or covered microphone, an attempt to jam it with noise, and ignores its own siren. 13 more tests on recorded sounds pass.",
+    "Sound detector (the next module): notices a sound louder than the background, a dead or covered microphone, an attempt to jam it with noise, and ignores its own siren.",
     "Next: a siren on sound in the room, a \"Signalka is online\" check, its own cellular modem, a microphone array for sound direction."
   ],
   "shots_title": "Screens",

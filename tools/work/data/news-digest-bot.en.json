@@ -22,7 +22,7 @@
   },
   "problem": "Finding the main stories among hundreds of feeds and posting on time, without manual routine.",
   "built": [
-    "98 sources (92 feeds and 6 trend signals), polled every 2 minutes.",
+    "News feeds and trend signals, polled every 2 minutes.",
     "Merging of stories about one event; an importance score up to 100; a top of the day capped at seven.",
     "Pre-publish checks: up to 1,024 characters, no links, no stop-words.",
     "A 1080x1350 card, or a licensed Wikimedia Commons photo.",

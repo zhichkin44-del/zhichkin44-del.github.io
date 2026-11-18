@@ -6,10 +6,10 @@
   "order": 6,
   "thumb": {
     "src": "/work/barbershop-booking-bot/01.webp",
-    "alt": "Barbershop clients book in Telegram, 24/7"
+    "alt": "A barbershop booking bot: services, masters, slots, cancellation, reminders"
   },
-  "title": "Barbershop clients book in Telegram, 24/7",
-  "lead": "Booking in a chat: service, master, day and time, with taken slots blocked, cancellation and an owner panel.",
+  "title": "A barbershop booking bot: services, masters, slots, cancellation, reminders",
+  "lead": "Clients pick a service, a master, a day and a time themselves; taken slots are blocked, with cancellation, reminders and a bookings table for the admin.",
   "category": "Bots",
   "hero": {
     "tall": false,
@@ -19,12 +19,12 @@
     "h": 800,
     "alt": "Bot page: the booking chat on a phone next to the offer, with service prices and reminders."
   },
-  "problem": "A barbershop wants clients to book themselves in a chat: choose a service, a master, a day and a time, get a confirmation, and be reminded a day and two hours before. The owner needs to be told about each booking and to see all of them in a table.",
+  "problem": "A barbershop wants clients to book themselves: choose a service, a master, a day and a time, get a confirmation, and be reminded a day and two hours before. The admin needs to be told about each booking and to see all of them in a table.",
   "built": [
-    "A page for the bot and an in-browser version of it: you can go through a whole booking with buttons, from service to confirmation.",
+    "Booking with buttons from service to confirmation; the scenario runs on a page in the browser.",
     "Times that are taken or already past cannot be chosen; cancelling a booking frees the slot.",
-    "The owner gets a notification and has a bookings panel.",
-    "For your salon the bot connects to your own Telegram account: you create the bot key in a couple of minutes, and I guide you step by step."
+    "The admin gets a notification and sees all bookings in one table.",
+    "For your salon the scenario connects to the channel your clients use: we agree how in the brief."
   ],
   "shots_title": "Screens",
   "shots": [
@@ -47,19 +47,19 @@
   ],
   "steps": [
     "The client picks a service, a master, a day and a time with buttons.",
-    "The bot confirms the booking in the chat.",
+    "The bot confirms the booking.",
     "Reminders go out a day and two hours before the visit.",
-    "Cancelling frees the slot; the owner is notified and sees the booking in a table."
+    "Cancelling frees the slot; the admin is notified and sees the booking in a table."
   ],
   "stack": [
-    "Telegram bot",
+    "Booking scenario with slots",
     "Booking page in the browser (HTML, CSS, JavaScript)"
   ],
   "offer": [
     "A booking bot for your salon, studio or solo master: services, masters, working hours.",
-    "Reminders, cancellation and an owner notification.",
-    "A bookings table for the owner.",
-    "Connection to your Telegram bot: you create the bot's key yourself in a couple of minutes, and I guide you step by step."
+    "Reminders, cancellation and an admin notification.",
+    "A bookings table.",
+    "Connection to your clients’ channel — agreed in the brief."
   ],
   "not_included": "CRM integration — quoted separately once I see which CRM you use.",
   "price_en": "Starting at $80"

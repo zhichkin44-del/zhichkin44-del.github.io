@@ -1,0 +1,250 @@
+{
+  "asOf": "2026-11-18",
+  "source": "FACTS.md, срез 18.11.2026 (C:\\Studio\\hh-transfer\\specs\\FACTS.md)",
+  "facts": {
+    "experience": {
+      "value": 2,
+      "unit": {
+        "ru": "года проектной разработки",
+        "en": "years of project work"
+      },
+      "date": "2026-11-18",
+      "source": {
+        "ru": "фриланс с ноября 2024",
+        "en": "freelance since November 2024"
+      }
+    },
+    "prsTotal": {
+      "value": 556,
+      "unit": {
+        "ru": "слитых PR",
+        "en": "merged PRs"
+      },
+      "date": "2026-11-18",
+      "source": {
+        "ru": "GitHub, все репозитории аккаунта",
+        "en": "GitHub, all account repositories"
+      }
+    },
+    "reposTotal": {
+      "value": 15,
+      "unit": {
+        "ru": "репозиториев",
+        "en": "repositories"
+      },
+      "date": "2026-11-18",
+      "source": {
+        "ru": "GitHub",
+        "en": "GitHub"
+      }
+    },
+    "prsPlatform": {
+      "value": 380,
+      "unit": {
+        "ru": "слитых PR в репозитории платформы",
+        "en": "merged PRs in the platform repository"
+      },
+      "date": "2026-11-18",
+      "source": {
+        "ru": "GitHub, studio-control",
+        "en": "GitHub, studio-control"
+      }
+    },
+    "platformTests": {
+      "value": 1921,
+      "of": 1922,
+      "unit": {
+        "ru": "тестов платформы проходят, 1 пропущен (не упал)",
+        "en": "platform tests pass, 1 skipped (not failed)"
+      },
+      "date": "2026-11-08",
+      "source": {
+        "ru": "прогон npm run check",
+        "en": "npm run check run"
+      }
+    },
+    "platformAgents": {
+      "value": 17,
+      "unit": {
+        "ru": "ролей агентов с правами",
+        "en": "agent roles with permissions"
+      },
+      "date": "2026-10-24",
+      "source": {
+        "ru": "crew/*.json, версия 0.5.0",
+        "en": "crew/*.json, version 0.5.0"
+      }
+    },
+    "platformModules": {
+      "value": 24,
+      "unit": {
+        "ru": "модуля ядра",
+        "en": "core modules"
+      },
+      "date": "2026-11-08",
+      "source": {
+        "ru": "каталог modules/",
+        "en": "modules/ directory"
+      }
+    },
+    "platformProjects": {
+      "value": 8,
+      "unit": {
+        "ru": "проектов ведёт платформа",
+        "en": "projects run on the platform"
+      },
+      "date": "2026-11-08",
+      "source": {
+        "ru": "реестр проектов платформы",
+        "en": "platform project registry"
+      }
+    },
+    "jobSources": {
+      "value": 8,
+      "unit": {
+        "ru": "открытых площадок",
+        "en": "open job sites"
+      },
+      "date": "2026-11-18",
+      "source": {
+        "ru": "открытый код job-feed-bot",
+        "en": "job-feed-bot open source code"
+      }
+    },
+    "jobTests": {
+      "value": 44,
+      "unit": {
+        "ru": "теста проходят",
+        "en": "tests pass"
+      },
+      "date": "2026-11-18",
+      "source": {
+        "ru": "прогон тестов, открытый код",
+        "en": "test run, open source"
+      }
+    },
+    "messengerChecks": {
+      "value": 161,
+      "unit": {
+        "ru": "проверка проходит (128 сервера + 33 интерфейса)",
+        "en": "checks pass (128 server + 33 UI)"
+      },
+      "date": "2026-10-23",
+      "source": {
+        "ru": "прогон тестов версии 1.0",
+        "en": "version 1.0 test run"
+      }
+    },
+    "messengerDelivered": {
+      "value": 3312,
+      "of": 3312,
+      "unit": {
+        "ru": "сообщений доставлено, медиана 9 мс",
+        "en": "messages delivered, median 9 ms"
+      },
+      "date": "2026-10-23",
+      "source": {
+        "ru": "прогон сценария рабочей недели",
+        "en": "work-week scenario run"
+      }
+    },
+    "messengerAttacks": {
+      "value": 20,
+      "of": 20,
+      "unit": {
+        "ru": "тестовых атак отбито",
+        "en": "test attacks blocked"
+      },
+      "date": "2026-10-23",
+      "source": {
+        "ru": "прогон сценария рабочей недели",
+        "en": "work-week scenario run"
+      }
+    },
+    "videoLength": {
+      "value": "10:57",
+      "unit": {
+        "ru": "длительность выпуска 4K (мин:с)",
+        "en": "4K episode length (min:s)"
+      },
+      "date": "2026-11-14",
+      "source": {
+        "ru": "status.json выпуска 003",
+        "en": "episode 003 status.json"
+      }
+    },
+    "videoLoudness": {
+      "value": "−14,1",
+      "valueEn": "−14.1",
+      "unit": {
+        "ru": "LUFS громкость выпуска",
+        "en": "LUFS episode loudness"
+      },
+      "date": "2026-11-14",
+      "source": {
+        "ru": "status.json выпуска 003, ворота качества пройдены",
+        "en": "episode 003 status.json, quality gates passed"
+      }
+    },
+    "agentprismShare": {
+      "value": "≈85",
+      "unit": {
+        "ru": "% стоимости — повторная отправка истории, 12 дней",
+        "en": "% of cost is re-sent history, 12 days"
+      },
+      "date": "2026-11-04",
+      "source": {
+        "ru": "журналы агентов, данные до 04.11.2026",
+        "en": "agent logs, data up to 4 Nov 2026"
+      }
+    },
+    "leoTests": {
+      "value": 57,
+      "unit": {
+        "ru": "тестов проходят",
+        "en": "tests pass"
+      },
+      "date": "2026-11-15",
+      "source": {
+        "ru": "node --test, v0.1.0",
+        "en": "node --test, v0.1.0"
+      }
+    },
+    "petBotTests": {
+      "value": 84,
+      "unit": {
+        "ru": "теста проходят",
+        "en": "tests pass"
+      },
+      "date": "2026-11-15",
+      "source": {
+        "ru": "прогон тестов",
+        "en": "test run"
+      }
+    },
+    "alarmTests": {
+      "value": 26,
+      "unit": {
+        "ru": "тестов охраны ПК проходят",
+        "en": "PC guard tests pass"
+      },
+      "date": "2026-11-14",
+      "source": {
+        "ru": "прогон тестов",
+        "en": "test run"
+      }
+    },
+    "vaultTests": {
+      "value": 63,
+      "unit": {
+        "ru": "теста проходят",
+        "en": "tests pass"
+      },
+      "date": "2026-11-14",
+      "source": {
+        "ru": "прогон тестов",
+        "en": "test run"
+      }
+    }
+  }
+}

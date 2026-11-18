@@ -7,9 +7,9 @@
   "order": 3,
   "thumb": {
     "src": "/work/owner-dashboard/03.webp",
-    "alt": "Owner dashboard: projects, tasks and one-tap decisions"
+    "alt": "Pulse AI: projects, agent tasks and one-tap decisions"
   },
-  "title": "Owner dashboard: projects, tasks and one-tap decisions",
+  "title": "Pulse AI: projects, agent tasks and one-tap decisions",
   "lead": "One screen for every project: what is moving, what is stuck and what waits for your decision.",
   "category": "Apps / Automation",
   "hero": {
@@ -32,11 +32,11 @@
   "shots": [
     {
       "tall": false,
-      "caption": "Crew screen: assistant cards with the model (Haiku 5.5 / Sonnet 5.5), status and today's cost; on the right, which agents are working now (interface in Russian).",
+      "caption": "Agents screen: assistant cards with the model (Haiku 5.5 / Sonnet 5.5), status and today's cost; on the right, which agents are working now (interface in Russian).",
       "src": "/work/owner-dashboard/04.webp",
       "w": 1440,
       "h": 900,
-      "alt": "Crew screen: assistant cards with the model (Haiku 5.5 / Sonnet 5.5), status and today's cost; on the right, which agents are working now (interface in Russian)."
+      "alt": "Agents screen: assistant cards with the model (Haiku 5.5 / Sonnet 5.5), status and today's cost; on the right, which agents are working now (interface in Russian)."
     },
     {
       "tall": true,

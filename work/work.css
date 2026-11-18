@@ -55,3 +55,5 @@
 .p-hero .crumbs{color:var(--muted)}.p-hero .crumbs a{color:var(--ink)}
 .wk-card__thumb--wide img{object-fit:contain;object-position:center}
 .p-hero .crumbs{display:inline-block;max-width:100%;padding:5px 12px;border-radius:12px;background:#030303b8;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-shadow:none}
+.wk-employer{margin-top:28px;color:var(--faint);font-size:14px}.wk-employer a{color:var(--disk)}
+.wk-site__h{font-size:19px;line-height:1.25;margin:0}
